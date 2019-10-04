@@ -1,1 +1,0 @@
-<i ><h1 style="background-color: royalblue">Большое красивое меню</h1></i>
