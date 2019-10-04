@@ -2,13 +2,13 @@
 echo "Задание 1 Плюс-Минус-Умножение<br><br>";
 $a = rand(-15, 15);
 $b = rand(-30, 30);
-echo "a={$a}<br> b={$b}<br>";
-if ($a >= 0 && $b >= 0) {
-    echo "а вычесть b равно ", $a - $b;
-} elseif ($a < 0 && $b < 0) {
-    echo "а умножить на b равно ", $a * $b;
+echo "a = {$a}<br> b = {$b}<br>";
+if ($a < 0 xor $b < 0) { // Максимально короткая запись условий
+    echo 'а плюс b равно ' . ($a + $b); //Вывод конкатенацией
+} elseif ($a < 0) {
+    echo "а умножить на b равно ", $a * $b; //Вывод списком аргументов
 } else {
-    echo "а плюс b равно ", $a + $b;
+    echo "а вычесть b равно ", $a - $b;
 }
 
 echo "<br><br>Задание 2 switch 0-15<br><br>";
@@ -48,26 +48,37 @@ switch ($c) {
         echo 15;
 }
 
-echo "<br><br>Задание 3 Четыре операции<br><br>";
+echo '<br><br>Цикл при помощи рекурсии<br>';
+
+function numbersLine($c)
+{ //функция без return, так проще
+    if ($c < 15) {
+        echo "{$c} ";
+        numbersline($c + 1);
+    } else {
+        echo $c;
+    }
+}
+
+numbersline($c);
+
+echo "<br><br>Задание 3 Четыре операции для а и b<br><br>";
 
 function add($a, $b)
 {
     return $a + $b;
 }
 
-;
 function subtract($a, $b)
 {
     return $a - $b;
 }
 
-;
 function multiply($a, $b)
 {
     return $a * $b;
 }
 
-;
 function split($a, $b)
 {
     return ($b == 0) ? "Нельзя делить на 0" : $a / $b;
@@ -80,7 +91,7 @@ echo split($a, $b), " частное<br>";
 
 echo "<br><br>Задание 4 Калькулятор<br><br>";
 
-function calculator($arg1, $arg2, $operation)
+function calculator($arg1, $arg2, $operation) //Длинный вариант функции
 {
     switch ($operation) {
         case "add":
@@ -101,7 +112,21 @@ function calculator($arg1, $arg2, $operation)
     }
 }
 
-echo calculator($a, $b, "add");
+function shortCalculator($arg1, $arg2, $operation) //Короткий вариант функции
+{
+    if (function_exists("$operation")) {
+        return $operation($arg1, $arg2);
+    } else {
+        return "Калькулятор не знает такой математической операции<br>
+            Попробуйте add, subtract, multiply, split";
+    }
+}
+
+echo Calculator($a, $b, "add"), '<br>';
+echo Calculator($a, $b, "subtract"), '<br>';
+echo Calculator($a, $b, "multiply"), '<br>';
+echo Calculator($a, $b, "split"), '<br>';
+echo Calculator($a, $b, sdf);
 
 echo "<br><br>Задание 6 Возведу в любую целую степень!<br><br>";
 function power($val, $pow)
@@ -113,32 +138,39 @@ function power($val, $pow)
     } elseif ($pow > 0) {
         return $val * power($val, $pow - 1);
     } else {
-        return 1 / $val * power($val, $pow + 1);
+        return 1 / power($val, -$pow);
     }
 }
 
-echo power(4, -3);
+echo power(2, -3);
 
 echo "<br><br>Задание 7 Который час?<br><br>";
 
 //Функция определения и подстановки склонения. Указать переменную и три формы склонения слова
 function declension($item, $singular_form, $dual_form, $plural_form)
 {
-    if ($item % 10 == 1 && $item != 11) {
-        return "$item $singular_form";
-    } elseif ($item % 10 < 5 && $item % 10 > 1 && (int)($item / 10) != 1) {
-        return "$item $dual_form";
-    } else {
+//    if ($item % 10 == 1 && $item != 11) { //Первый вариант
+//        return "$item $singular_form";
+//    } elseif ($item % 10 < 5 && $item % 10 > 1 && (int)($item / 10) != 1) {
+//        return "$item $dual_form";
+//    } else {
+//        return "$item $plural_form";
+//    }
+
+    if ($item % 10 > 4 || !($item % 10) || (int)($item / 10) == 1) { //Нашел вариант на 1 условие короче предыдущего
         return "$item $plural_form";
+    } else if ($item % 10 == 1) {
+        return "$item $singular_form";
+    } else {
+        return "$item $dual_form";
     }
 }
 
 function show_time()
 {
-    $hours = date('G');
-    $minutes = date('i');
-//    $hours = rand(1, 24); //Рандомные значения для тестов
-//    $minutes = rand(1, 60);
+    $time = time() + (2 * 60 * 60); //Для вывода времени в часовом поясе Екатеринбурга
+    $hours = date('G', $time);
+    $minutes = date('i', $time);
     echo declension($hours, "час", "часа", "часов");
     echo " "; //Вывод пробела не включен в функцию, т.к. он не обязательный
     echo declension($minutes, "минута", "минуты", "минут");
@@ -146,6 +178,6 @@ function show_time()
 
 show_time();
 echo "<br>Пример работы<br>";
-for($ho=0;$ho<25;$ho++){
-    echo declension($ho, "яблоко", "яблока", "яблок") . " ";
+for ($apples = 0; $apples < 25; $apples++) {
+    echo declension($apples, "яблоко", "яблока", "яблок") . " ";
 }
