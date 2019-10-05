@@ -140,20 +140,34 @@ echo Calculator($a, $b, "split"), '<br>';
 echo shortCalculator($a, $b, sdf);
 
 echo "<br><br>Задание 6 Возведу в любую целую степень!<br><br>";
-function power($val, $pow)
-{
+//function power($val, $pow)
+//{
+//    if (!is_int($pow)) {
+//        return "Степень должна быть целым числом";
+//    } elseif ($pow == 0) {
+//        return 1;
+//    } elseif ($pow > 0) {
+//        return $val * power($val, $pow - 1);
+//    } else {
+//        return 1 / power($val, -$pow);
+//    }
+//}
+//
+//echo power(2, -3);
+
+//Через замыкание
+$power = function ($val, $pow) use (&$power)  {
     if (!is_int($pow)) {
         return "Степень должна быть целым числом";
     } elseif ($pow == 0) {
         return 1;
     } elseif ($pow > 0) {
-        return $val * power($val, $pow - 1);
+        return $val * $power($val, $pow - 1);
     } else {
-        return 1 / power($val, -$pow);
+        return 1 / $power($val, -$pow);
     }
-}
-
-echo power(2, -3);
+};
+echo $power(2, -8);
 
 echo "<br><br>Задание 7 Который час?<br><br>";
 
