@@ -15,52 +15,63 @@ echo "<br><br>Задание 2 switch 0-15<br><br>";
 $c = rand(0, 15);
 switch ($c) {
     case 0:
-        echo 0;
+        echo "0 ";
     case 1:
-        echo 1;
+        echo "1 ";
     case 2:
-        echo 2;
+        echo "2 ";
     case 3:
-        echo 3;
+        echo "3 ";
     case 4:
-        echo 4;
+        echo "4 ";
     case 5:
-        echo 5;
+        echo "5 ";
     case 6:
-        echo 6;
+        echo "6 ";
     case 7:
-        echo 7;
+        echo "7 ";
     case 8:
-        echo 8;
+        echo "8 ";
     case 9:
-        echo 9;
+        echo "9 ";
     case 10:
-        echo 10;
+        echo "10 ";
     case 11:
-        echo 11;
+        echo "11 ";
     case 12:
-        echo 12;
+        echo "12 ";
     case 13:
-        echo 13;
+        echo "13 ";
     case 14:
-        echo 14;
+        echo "14 ";
     case 15:
-        echo 15;
+        echo "15";
 }
 
 echo '<br><br>Цикл при помощи рекурсии<br>';
 
 function numbersLine($c)
 { //функция без return, так проще
-    if ($c < 15) {
+    if ($c <= 15) {
         echo "{$c} ";
         numbersline($c + 1);
-    } else {
-        echo $c;
     }
 }
 
 numbersline($c);
+echo "<br><br>";
+
+function numbersLine2($c)
+{ //функция с return, так правильнее
+    static $result = '';
+    if ($c <= 15) {
+        $result .= "{$c} ";
+        numbersline2($c + 1);
+    }
+    return $result;
+}
+
+echo numbersline2($c);
 
 echo "<br><br>Задание 3 Четыре операции для а и b<br><br>";
 
@@ -91,7 +102,7 @@ echo split($a, $b), " частное<br>";
 
 echo "<br><br>Задание 4 Калькулятор<br><br>";
 
-function calculator($arg1, $arg2, $operation) //Длинный вариант функции
+function calculator($arg1, $arg2, $operation) //Длинный вариант функции с switch
 {
     switch ($operation) {
         case "add":
@@ -123,10 +134,10 @@ function shortCalculator($arg1, $arg2, $operation) //Короткий вариа
 }
 
 echo Calculator($a, $b, "add"), '<br>';
-echo Calculator($a, $b, "subtract"), '<br>';
+echo shortCalculator($a, $b, "subtract"), '<br>';
 echo Calculator($a, $b, "multiply"), '<br>';
 echo Calculator($a, $b, "split"), '<br>';
-echo Calculator($a, $b, sdf);
+echo shortCalculator($a, $b, sdf);
 
 echo "<br><br>Задание 6 Возведу в любую целую степень!<br><br>";
 function power($val, $pow)
@@ -151,7 +162,7 @@ function declension($item, $singular_form, $dual_form, $plural_form)
 {
 //    if ($item % 10 == 1 && $item != 11) { //Первый вариант
 //        return "$item $singular_form";
-//    } elseif ($item % 10 < 5 && $item % 10 > 1 && (int)($item / 10) != 1) {
+//    } elseif ($item % 10 > 1 && $item % 10 < 5  && (int)($item / 10) != 1) {
 //        return "$item $dual_form";
 //    } else {
 //        return "$item $plural_form";
