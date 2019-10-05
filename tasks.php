@@ -156,7 +156,7 @@ echo "<br><br>Задание 6 Возведу в любую целую степ�
 //echo power(2, -3);
 
 //Через замыкание
-$power = function ($val, $pow) use (&$power)  {
+$power = function ($val, $pow) use (&$power) {
     if (!is_int($pow)) {
         return "Степень должна быть целым числом";
     } elseif ($pow == 0) {
