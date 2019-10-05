@@ -5,7 +5,7 @@
     <title>Document</title>
 </head>
 <body>
-<?=$menu?>
-<?=$content?>
+<?= $menu ?>
+<?= $content ?>
 </body>
 </html>

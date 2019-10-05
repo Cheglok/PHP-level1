@@ -1,6 +1,6 @@
 <?php
 
-echo renderTemplate('layout', renderTemplate('menu'), renderTemplate("index"));
+echo renderTemplate('layout', renderTemplate('menu'), renderTemplate('index'));
 
 
 function renderTemplate($page, $menu = '', $content = '')
