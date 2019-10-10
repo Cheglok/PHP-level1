@@ -1,0 +1,2662 @@
+### 10.10.2019 20:17:55
+index
+
+
+### 10.10.2019 20:17:55
+Array
+(
+    [login] => admin
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:17:55
+index
+
+
+### 10.10.2019 20:17:55
+../templates/index.php
+
+
+### 10.10.2019 20:17:55
+../templates/menu.php
+
+
+### 10.10.2019 20:17:55
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:21:02
+index
+
+
+### 10.10.2019 20:21:02
+Array
+(
+    [login] => admin
+    [menu] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:21:02
+index
+
+
+### 10.10.2019 20:21:02
+../templates/index.php
+
+
+### 10.10.2019 20:21:02
+../templates/menu.php
+
+
+### 10.10.2019 20:21:02
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:21:03
+index
+
+
+### 10.10.2019 20:21:03
+Array
+(
+    [login] => admin
+    [menu] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:21:03
+index
+
+
+### 10.10.2019 20:21:03
+../templates/index.php
+
+
+### 10.10.2019 20:21:03
+../templates/menu.php
+
+
+### 10.10.2019 20:21:03
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:21:33
+index
+
+
+### 10.10.2019 20:21:33
+Array
+(
+    [login] => admin
+    [menu] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:21:33
+index
+
+
+### 10.10.2019 20:21:33
+../templates/index.php
+
+
+### 10.10.2019 20:21:33
+../templates/menu.php
+
+
+### 10.10.2019 20:21:33
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:21:59
+index
+
+
+### 10.10.2019 20:21:59
+Array
+(
+    [login] => admin
+    [menu] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:21:59
+index
+
+
+### 10.10.2019 20:21:59
+../templates/index.php
+
+
+### 10.10.2019 20:21:59
+../templates/menu.php
+
+
+### 10.10.2019 20:21:59
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:24:26
+index
+
+
+### 10.10.2019 20:24:26
+Array
+(
+    [login] => admin
+    [menu] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:24:26
+index
+
+
+### 10.10.2019 20:24:26
+../templates/index.php
+
+
+### 10.10.2019 20:24:26
+../templates/menu.php
+
+
+### 10.10.2019 20:24:26
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:25:00
+index
+
+
+### 10.10.2019 20:25:00
+Array
+(
+    [login] => admin
+    [menu] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:25:00
+index
+
+
+### 10.10.2019 20:25:00
+../templates/index.php
+
+
+### 10.10.2019 20:25:00
+../templates/menu.php
+
+
+### 10.10.2019 20:25:00
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:25:54
+index
+
+
+### 10.10.2019 20:25:54
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:25:54
+index
+
+
+### 10.10.2019 20:25:54
+../templates/index.php
+
+
+### 10.10.2019 20:25:54
+../templates/menu.php
+
+
+### 10.10.2019 20:25:54
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:26:21
+index
+
+
+### 10.10.2019 20:26:21
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:26:21
+index
+
+
+### 10.10.2019 20:26:21
+../templates/index.php
+
+
+### 10.10.2019 20:26:21
+../templates/menu.php
+
+
+### 10.10.2019 20:26:21
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:26:50
+index
+
+
+### 10.10.2019 20:26:50
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:26:50
+index
+
+
+### 10.10.2019 20:26:50
+../templates/index.php
+
+
+### 10.10.2019 20:26:50
+../templates/menu.php
+
+
+### 10.10.2019 20:26:50
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:26:51
+index
+
+
+### 10.10.2019 20:26:51
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:26:51
+index
+
+
+### 10.10.2019 20:26:51
+../templates/index.php
+
+
+### 10.10.2019 20:26:51
+../templates/menu.php
+
+
+### 10.10.2019 20:26:51
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:26:51
+index
+
+
+### 10.10.2019 20:26:51
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:26:51
+index
+
+
+### 10.10.2019 20:26:51
+../templates/index.php
+
+
+### 10.10.2019 20:26:51
+../templates/menu.php
+
+
+### 10.10.2019 20:26:51
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:27:15
+index
+
+
+### 10.10.2019 20:27:15
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:27:15
+index
+
+
+### 10.10.2019 20:27:15
+../templates/index.php
+
+
+### 10.10.2019 20:27:15
+../templates/menu.php
+
+
+### 10.10.2019 20:27:15
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:27:16
+index
+
+
+### 10.10.2019 20:27:16
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:27:16
+index
+
+
+### 10.10.2019 20:27:16
+../templates/index.php
+
+
+### 10.10.2019 20:27:16
+../templates/menu.php
+
+
+### 10.10.2019 20:27:16
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:27:17
+index
+
+
+### 10.10.2019 20:27:17
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:27:17
+index
+
+
+### 10.10.2019 20:27:17
+../templates/index.php
+
+
+### 10.10.2019 20:27:17
+../templates/menu.php
+
+
+### 10.10.2019 20:27:17
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:28:34
+index
+
+
+### 10.10.2019 20:28:34
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:28:34
+index
+
+
+### 10.10.2019 20:28:34
+../templates/index.php
+
+
+### 10.10.2019 20:28:34
+../templates/menu.php
+
+
+### 10.10.2019 20:28:34
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:28:47
+index
+
+
+### 10.10.2019 20:28:47
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:28:47
+index
+
+
+### 10.10.2019 20:28:47
+../templates/index.php
+
+
+### 10.10.2019 20:28:47
+../templates/menu.php
+
+
+### 10.10.2019 20:28:47
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:29:22
+index
+
+
+### 10.10.2019 20:29:22
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:29:22
+index
+
+
+### 10.10.2019 20:29:22
+../templates/index.php
+
+
+### 10.10.2019 20:29:22
+../templates/menu.php
+
+
+### 10.10.2019 20:29:22
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:29:35
+index
+
+
+### 10.10.2019 20:29:35
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:29:35
+index
+
+
+### 10.10.2019 20:29:35
+../templates/index.php
+
+
+### 10.10.2019 20:29:35
+../templates/menu.php
+
+
+### 10.10.2019 20:29:35
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:30:18
+index
+
+
+### 10.10.2019 20:30:18
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:30:18
+index
+
+
+### 10.10.2019 20:30:18
+../templates/index.php
+
+
+### 10.10.2019 20:30:18
+../templates/menu.php
+
+
+### 10.10.2019 20:30:18
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:30:39
+index
+
+
+### 10.10.2019 20:30:39
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:30:39
+index
+
+
+### 10.10.2019 20:30:39
+../templates/index.php
+
+
+### 10.10.2019 20:30:39
+../templates/menu.php
+
+
+### 10.10.2019 20:30:39
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:31:22
+index
+
+
+### 10.10.2019 20:31:22
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:31:22
+index
+
+
+### 10.10.2019 20:31:22
+../templates/index.php
+
+
+### 10.10.2019 20:31:22
+../templates/menu.php
+
+
+### 10.10.2019 20:31:22
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:31:42
+index
+
+
+### 10.10.2019 20:31:42
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:31:42
+index
+
+
+### 10.10.2019 20:31:42
+../templates/index.php
+
+
+### 10.10.2019 20:31:42
+../templates/menu.php
+
+
+### 10.10.2019 20:31:54
+index
+
+
+### 10.10.2019 20:31:54
+Array
+(
+    [login] => admin
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Главная
+                    [link] => /
+                )
+
+            [1] => Array
+                (
+                    [title] => Каталог
+                    [link] => /?page=catalog
+                )
+
+            [2] => Array
+                (
+                    [title] => Работа функций ДЗ
+                    [link] => /?page=tasks
+                )
+
+            [Отдельные задания] => Array
+                (
+                    [0] => Array
+                        (
+                            [title] => Задание1
+                            [link] => /?page=tasks/task1
+                        )
+
+                    [1] => Array
+                        (
+                            [title] => Задание2
+                            [link] => /?page=tasks/task2
+                        )
+
+                    [Варианты задания3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [title] => Задание3 вариант А, foreach
+                                    [link] => /?page=tasks/task3a
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Задание1 вариант Б for
+                                    [link] => /?page=tasks/task3b
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [title] => Задание4
+                            [link] => /?page=tasks/task4
+                        )
+
+                    [3] => Array
+                        (
+                            [title] => Задание5
+                            [link] => /?page=tasks/task5
+                        )
+
+                    [4] => Array
+                        (
+                            [title] => Задание7
+                            [link] => /?page=tasks/task7
+                        )
+
+                    [5] => Array
+                        (
+                            [title] => Задание8
+                            [link] => /?page=tasks/task8
+                        )
+
+                    [6] => Array
+                        (
+                            [title] => Задание9
+                            [link] => /?page=tasks/task9
+                        )
+
+                )
+
+        )
+
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:31:54
+index
+
+
+### 10.10.2019 20:31:54
+../templates/index.php
+
+
+### 10.10.2019 20:31:54
+../templates/menu.php
+
+
+### 10.10.2019 20:31:54
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:35:14
+index
+
+
+### 10.10.2019 20:35:14
+Array
+(
+    [login] => admin
+    [list] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:35:14
+index
+
+
+### 10.10.2019 20:35:14
+../templates/index.php
+
+
+### 10.10.2019 20:35:14
+../templates/menu.php
+
+
+### 10.10.2019 20:35:14
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:37:03
+index
+
+
+### 10.10.2019 20:37:03
+Array
+(
+    [login] => admin
+    [list] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:37:03
+index
+
+
+### 10.10.2019 20:37:03
+../templates/index.php
+
+
+### 10.10.2019 20:37:03
+../templates/menu.php
+
+
+### 10.10.2019 20:37:03
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:37:48
+index
+
+
+### 10.10.2019 20:37:48
+Array
+(
+    [login] => admin
+    [list] => <ul>array(4) {
+  [0]=>
+  array(2) {
+    ["title"]=>
+    string(14) "Главная"
+    ["link"]=>
+    string(1) "/"
+  }
+  [1]=>
+  array(2) {
+    ["title"]=>
+    string(14) "Каталог"
+    ["link"]=>
+    string(14) "/?page=catalog"
+  }
+  [2]=>
+  array(2) {
+    ["title"]=>
+    string(32) "Работа функций ДЗ"
+    ["link"]=>
+    string(12) "/?page=tasks"
+  }
+  ["Отдельные задания"]=>
+  array(8) {
+    [0]=>
+    array(2) {
+      ["title"]=>
+      string(15) "Задание1"
+      ["link"]=>
+      string(18) "/?page=tasks/task1"
+    }
+    [1]=>
+    array(2) {
+      ["title"]=>
+      string(15) "Задание2"
+      ["link"]=>
+      string(18) "/?page=tasks/task2"
+    }
+    ["Варианты задания3"]=>
+    array(2) {
+      [0]=>
+      array(2) {
+        ["title"]=>
+        string(42) "Задание3 вариант А, foreach"
+        ["link"]=>
+        string(19) "/?page=tasks/task3a"
+      }
+      [1]=>
+      array(2) {
+        ["title"]=>
+        string(37) "Задание1 вариант Б for"
+        ["link"]=>
+        string(19) "/?page=tasks/task3b"
+      }
+    }
+    [2]=>
+    array(2) {
+      ["title"]=>
+      string(15) "Задание4"
+      ["link"]=>
+      string(18) "/?page=tasks/task4"
+    }
+    [3]=>
+    array(2) {
+      ["title"]=>
+      string(15) "Задание5"
+      ["link"]=>
+      string(18) "/?page=tasks/task5"
+    }
+    [4]=>
+    array(2) {
+      ["title"]=>
+      string(15) "Задание7"
+      ["link"]=>
+      string(18) "/?page=tasks/task7"
+    }
+    [5]=>
+    array(2) {
+      ["title"]=>
+      string(15) "Задание8"
+      ["link"]=>
+      string(18) "/?page=tasks/task8"
+    }
+    [6]=>
+    array(2) {
+      ["title"]=>
+      string(15) "Задание9"
+      ["link"]=>
+      string(18) "/?page=tasks/task9"
+    }
+  }
+}
+<li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul>array(8) {
+  [0]=>
+  array(2) {
+    ["title"]=>
+    string(15) "Задание1"
+    ["link"]=>
+    string(18) "/?page=tasks/task1"
+  }
+  [1]=>
+  array(2) {
+    ["title"]=>
+    string(15) "Задание2"
+    ["link"]=>
+    string(18) "/?page=tasks/task2"
+  }
+  ["Варианты задания3"]=>
+  array(2) {
+    [0]=>
+    array(2) {
+      ["title"]=>
+      string(42) "Задание3 вариант А, foreach"
+      ["link"]=>
+      string(19) "/?page=tasks/task3a"
+    }
+    [1]=>
+    array(2) {
+      ["title"]=>
+      string(37) "Задание1 вариант Б for"
+      ["link"]=>
+      string(19) "/?page=tasks/task3b"
+    }
+  }
+  [2]=>
+  array(2) {
+    ["title"]=>
+    string(15) "Задание4"
+    ["link"]=>
+    string(18) "/?page=tasks/task4"
+  }
+  [3]=>
+  array(2) {
+    ["title"]=>
+    string(15) "Задание5"
+    ["link"]=>
+    string(18) "/?page=tasks/task5"
+  }
+  [4]=>
+  array(2) {
+    ["title"]=>
+    string(15) "Задание7"
+    ["link"]=>
+    string(18) "/?page=tasks/task7"
+  }
+  [5]=>
+  array(2) {
+    ["title"]=>
+    string(15) "Задание8"
+    ["link"]=>
+    string(18) "/?page=tasks/task8"
+  }
+  [6]=>
+  array(2) {
+    ["title"]=>
+    string(15) "Задание9"
+    ["link"]=>
+    string(18) "/?page=tasks/task9"
+  }
+}
+<li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul>array(2) {
+  [0]=>
+  array(2) {
+    ["title"]=>
+    string(42) "Задание3 вариант А, foreach"
+    ["link"]=>
+    string(19) "/?page=tasks/task3a"
+  }
+  [1]=>
+  array(2) {
+    ["title"]=>
+    string(37) "Задание1 вариант Б for"
+    ["link"]=>
+    string(19) "/?page=tasks/task3b"
+  }
+}
+<li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:37:48
+index
+
+
+### 10.10.2019 20:37:48
+../templates/index.php
+
+
+### 10.10.2019 20:37:48
+../templates/menu.php
+
+
+### 10.10.2019 20:37:48
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:38:51
+index
+
+
+### 10.10.2019 20:38:51
+Array
+(
+    [login] => admin
+    [list] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:38:51
+index
+
+
+### 10.10.2019 20:38:51
+../templates/index.php
+
+
+### 10.10.2019 20:38:51
+../templates/menu.php
+
+
+### 10.10.2019 20:38:51
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:38:53
+index
+
+
+### 10.10.2019 20:38:53
+Array
+(
+    [login] => admin
+    [list] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:38:53
+index
+
+
+### 10.10.2019 20:38:53
+../templates/index.php
+
+
+### 10.10.2019 20:38:53
+../templates/menu.php
+
+
+### 10.10.2019 20:38:53
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:38:53
+index
+
+
+### 10.10.2019 20:38:53
+Array
+(
+    [login] => admin
+    [list] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:38:53
+index
+
+
+### 10.10.2019 20:38:53
+../templates/index.php
+
+
+### 10.10.2019 20:38:53
+../templates/menu.php
+
+
+### 10.10.2019 20:38:53
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:39:03
+index
+
+
+### 10.10.2019 20:39:03
+Array
+(
+    [login] => admin
+    [list] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:39:03
+index
+
+
+### 10.10.2019 20:39:03
+../templates/index.php
+
+
+### 10.10.2019 20:39:03
+../templates/menu.php
+
+
+### 10.10.2019 20:39:03
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:39:37
+index
+
+
+### 10.10.2019 20:39:37
+Array
+(
+    [login] => admin
+    [list] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:39:37
+index
+
+
+### 10.10.2019 20:39:37
+../templates/index.php
+
+
+### 10.10.2019 20:39:37
+../templates/menu.php
+
+
+### 10.10.2019 20:39:37
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:42:15
+index
+
+
+### 10.10.2019 20:42:15
+Array
+(
+    [login] => admin
+    [list] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:42:15
+index
+
+
+### 10.10.2019 20:42:15
+../templates/index.php
+
+
+### 10.10.2019 20:42:15
+../templates/menu.php
+
+
+### 10.10.2019 20:42:15
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:42:21
+index
+
+
+### 10.10.2019 20:42:21
+Array
+(
+    [login] => admin
+    [list] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:42:21
+index
+
+
+### 10.10.2019 20:42:21
+../templates/index.php
+
+
+### 10.10.2019 20:42:21
+../templates/menu.php
+
+
+### 10.10.2019 20:42:21
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:42:25
+index
+
+
+### 10.10.2019 20:42:25
+Array
+(
+    [login] => admin
+    [list] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:42:25
+index
+
+
+### 10.10.2019 20:42:25
+../templates/index.php
+
+
+### 10.10.2019 20:42:25
+../templates/menu.php
+
+
+### 10.10.2019 20:42:25
+../templates/layouts/main.php
+
+
+### 10.10.2019 20:47:56
+index
+
+
+### 10.10.2019 20:47:56
+Array
+(
+    [login] => admin
+    [list] => <ul><li><a href="/">Главная</a></li><li><a href="/?page=catalog">Каталог</a></li><li><a href="/?page=tasks">Работа функций ДЗ</a></li><h4>Отдельные задания</h4><ul><li><a href="/?page=tasks/task1">Задание1</a></li><li><a href="/?page=tasks/task2">Задание2</a></li><h4>Варианты задания3</h4><ul><li><a href="/?page=tasks/task3a">Задание3 вариант А, foreach</a></li><li><a href="/?page=tasks/task3b">Задание1 вариант Б for</a></li></ul><li><a href="/?page=tasks/task4">Задание4</a></li><li><a href="/?page=tasks/task5">Задание5</a></li><li><a href="/?page=tasks/task7">Задание7</a></li><li><a href="/?page=tasks/task8">Задание8</a></li><li><a href="/?page=tasks/task9">Задание9</a></li></ul></ul>
+    [name] => Клен
+)
+
+
+
+### 10.10.2019 20:47:56
+index
+
+
+### 10.10.2019 20:47:56
+../templates/index.php
+
+
+### 10.10.2019 20:47:56
+../templates/menu.php
+
+
+### 10.10.2019 20:47:56
+../templates/layouts/main.php
+
+

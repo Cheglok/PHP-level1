@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <?=$headInfo?>
 </head>
 <body>
-<?= $menu ?>
-<?= $content ?>
+    <?=$menu?>
+    <?=$content?>
 </body>
 </html>
