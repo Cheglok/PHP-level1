@@ -1,10 +1,12 @@
 <?php
+
 function render($page, $params = [])
 {
     _log($page);
     return renderTemplate(LAYOUTS_DIR . 'main', [
             'content' => renderTemplate($page, $params),
             'menu' => renderTemplate('menu', $params),
+            'headInfo' => $params['headInfo']
         ]
     );
 }
@@ -28,22 +30,23 @@ function renderTemplate($page, $params = [])
     return ob_get_clean();
 }
 
+
 function makeMenu($links)
 {
     ob_start();
-    echo "<ul>";
-    if(isset($links)) {
+    echo "<ul>\n";
+    if (isset($links)) {
         foreach ($links as $key => $value) {
             if (is_array($value) && array_key_exists('link', $value)) {
-                echo "<li><a href=\"{$value['link']}\">{$value['title']}</a></li>";
+                echo "<li><a href=\"{$value['link']}\">{$value['title']}</a></li>\n";
             } else if (is_array($value)) {
-                echo "<h4>{$key}</h4>";
+                echo "<h4>{$key}</h4>\n";
                 echo makeMenu($value);
             } else {
                 continue;
             }
         }
     }
-    echo "</ul>";
+    echo "</ul>\n";
     return ob_get_clean();
 }

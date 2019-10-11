@@ -8,7 +8,7 @@ if (isset($_GET['page'])) {
     $page = 'index';
 }
 _log($page);
-$params = ['login' => 'admin', 'menuList' => makeMenu($links), 'headInfo' => $galleryHeadInfo];
+$params = ['login' => 'admin', 'menuList' => makeMenu($links), 'headInfo' => ''];
 switch ($page) {
     case 'index':
         $params['name'] = 'Клен';
@@ -31,7 +31,7 @@ switch ($page) {
         ];
         break;
 
-        case 'apicatalog':
+    case 'apicatalog':
         $params['catalog'] = [
             [
                 'name' => 'Пицца',
@@ -49,7 +49,8 @@ switch ($page) {
         break;
 
     case 'gallery':
-        $params['imagesList'] = array_splice(scandir(PREVIEWS_DIR), 2 );
+        $params['imagesList'] = array_splice(scandir(PREVIEWS_DIR), 2);
+        $params['headInfo'] = $galleryHeadInfo;
 
 
 }
@@ -57,3 +58,4 @@ switch ($page) {
 echo render($page, $params);
 
 echo makeMenu($params['links']);
+

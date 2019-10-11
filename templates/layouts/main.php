@@ -6,6 +6,7 @@
     <?=$headInfo?>
 </head>
 <body>
+
     <?=$menu?>
     <?=$content?>
 </body>
