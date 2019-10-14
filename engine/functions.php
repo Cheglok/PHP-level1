@@ -33,20 +33,20 @@ function renderTemplate($page, $params = [])
 
 function makeMenu($links)
 {
-    ob_start();
-    echo "<ul>\n";
+    $menuString = '';
+    $menuString .= "<ul>\n";
     if (isset($links)) {
         foreach ($links as $key => $value) {
             if (is_array($value) && array_key_exists('link', $value)) {
-                echo "<li><a href=\"{$value['link']}\">{$value['title']}</a></li>\n";
+                $menuString .= "<li><a href=\"{$value['link']}\">{$value['title']}</a></li>\n";
             } else if (is_array($value)) {
-                echo "<h4>{$key}</h4>\n";
-                echo makeMenu($value);
+                $menuString .= "<h4>{$key}</h4>\n";
+                $menuString .= makeMenu($value);
             } else {
                 continue;
             }
         }
     }
-    echo "</ul>\n";
-    return ob_get_clean();
+    $menuString .= "</ul>\n";
+    return $menuString;
 }

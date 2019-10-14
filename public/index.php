@@ -57,5 +57,3 @@ switch ($page) {
 
 echo render($page, $params);
 
-echo makeMenu($params['links']);
-

@@ -3858,3 +3858,1466 @@ gallery
 ../templates/layouts/main.php
 
 
+### 11.10.2019 05:49:53
+gallery
+
+
+### 11.10.2019 05:49:53
+gallery
+
+
+### 11.10.2019 05:49:53
+../templates/gallery.php
+
+
+### 11.10.2019 05:49:53
+../templates/menu.php
+
+
+### 11.10.2019 05:49:53
+../templates/layouts/main.php
+
+
+### 11.10.2019 05:49:54
+index
+
+
+### 11.10.2019 05:49:54
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 11.10.2019 05:49:54
+index
+
+
+### 11.10.2019 05:49:54
+../templates/index.php
+
+
+### 11.10.2019 05:49:54
+../templates/menu.php
+
+
+### 11.10.2019 05:49:54
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:04:13
+index
+
+
+### 14.10.2019 17:04:13
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:04:13
+index
+
+
+### 14.10.2019 17:04:13
+../templates/index.php
+
+
+### 14.10.2019 17:04:13
+../templates/menu.php
+
+
+### 14.10.2019 17:04:13
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:04:19
+gallery
+
+
+### 14.10.2019 17:04:19
+gallery
+
+
+### 14.10.2019 17:04:19
+../templates/gallery.php
+
+
+### 14.10.2019 17:04:19
+../templates/menu.php
+
+
+### 14.10.2019 17:04:19
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:04:54
+index
+
+
+### 14.10.2019 17:04:54
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:04:54
+index
+
+
+### 14.10.2019 17:04:54
+../templates/index.php
+
+
+### 14.10.2019 17:04:54
+../templates/menu.php
+
+
+### 14.10.2019 17:04:54
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:05:01
+index
+
+
+### 14.10.2019 17:05:01
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:05:01
+index
+
+
+### 14.10.2019 17:05:01
+../templates/index.php
+
+
+### 14.10.2019 17:05:01
+../templates/menu.php
+
+
+### 14.10.2019 17:05:01
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:07:07
+index
+
+
+### 14.10.2019 17:07:07
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:07:07
+index
+
+
+### 14.10.2019 17:07:07
+../templates/index.php
+
+
+### 14.10.2019 17:07:07
+../templates/menu.php
+
+
+### 14.10.2019 17:07:07
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:07:08
+index
+
+
+### 14.10.2019 17:07:08
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:07:08
+index
+
+
+### 14.10.2019 17:07:08
+../templates/index.php
+
+
+### 14.10.2019 17:07:08
+../templates/menu.php
+
+
+### 14.10.2019 17:07:08
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:07:08
+index
+
+
+### 14.10.2019 17:07:08
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:07:08
+index
+
+
+### 14.10.2019 17:07:08
+../templates/index.php
+
+
+### 14.10.2019 17:07:08
+../templates/menu.php
+
+
+### 14.10.2019 17:07:08
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:07:09
+index
+
+
+### 14.10.2019 17:07:09
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:07:09
+index
+
+
+### 14.10.2019 17:07:09
+../templates/index.php
+
+
+### 14.10.2019 17:07:09
+../templates/menu.php
+
+
+### 14.10.2019 17:07:09
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:07:10
+gallery
+
+
+### 14.10.2019 17:07:10
+gallery
+
+
+### 14.10.2019 17:07:10
+../templates/gallery.php
+
+
+### 14.10.2019 17:07:10
+../templates/menu.php
+
+
+### 14.10.2019 17:07:10
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:07:11
+catalog
+
+
+### 14.10.2019 17:07:11
+catalog
+
+
+### 14.10.2019 17:07:11
+../templates/catalog.php
+
+
+### 14.10.2019 17:07:11
+../templates/menu.php
+
+
+### 14.10.2019 17:07:11
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:07:12
+index
+
+
+### 14.10.2019 17:07:12
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:07:12
+index
+
+
+### 14.10.2019 17:07:12
+../templates/index.php
+
+
+### 14.10.2019 17:07:12
+../templates/menu.php
+
+
+### 14.10.2019 17:07:12
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:07:17
+index
+
+
+### 14.10.2019 17:07:17
+Array
+(
+    [login] => admin
+    [menuList] => 
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:07:17
+index
+
+
+### 14.10.2019 17:07:17
+../templates/index.php
+
+
+### 14.10.2019 17:07:17
+../templates/menu.php
+
+
+### 14.10.2019 17:07:17
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:07:18
+index
+
+
+### 14.10.2019 17:07:18
+Array
+(
+    [login] => admin
+    [menuList] => 
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:07:18
+index
+
+
+### 14.10.2019 17:07:18
+../templates/index.php
+
+
+### 14.10.2019 17:07:18
+../templates/menu.php
+
+
+### 14.10.2019 17:07:18
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:07:18
+index
+
+
+### 14.10.2019 17:07:18
+Array
+(
+    [login] => admin
+    [menuList] => 
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:07:18
+index
+
+
+### 14.10.2019 17:07:18
+../templates/index.php
+
+
+### 14.10.2019 17:07:18
+../templates/menu.php
+
+
+### 14.10.2019 17:07:18
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:07:25
+index
+
+
+### 14.10.2019 17:07:25
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:07:25
+index
+
+
+### 14.10.2019 17:07:25
+../templates/index.php
+
+
+### 14.10.2019 17:07:25
+../templates/menu.php
+
+
+### 14.10.2019 17:07:25
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:11:00
+index
+
+
+### 14.10.2019 17:11:00
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:11:00
+index
+
+
+### 14.10.2019 17:11:00
+../templates/index.php
+
+
+### 14.10.2019 17:11:00
+../templates/menu.php
+
+
+### 14.10.2019 17:11:00
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:11:38
+index
+
+
+### 14.10.2019 17:11:38
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:11:38
+index
+
+
+### 14.10.2019 17:11:38
+../templates/index.php
+
+
+### 14.10.2019 17:11:38
+../templates/menu.php
+
+
+### 14.10.2019 17:11:38
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:12:30
+index
+
+
+### 14.10.2019 17:12:30
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:12:30
+index
+
+
+### 14.10.2019 17:12:30
+../templates/index.php
+
+
+### 14.10.2019 17:12:30
+../templates/menu.php
+
+
+### 14.10.2019 17:12:30
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:14:05
+index
+
+
+### 14.10.2019 17:14:05
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:14:05
+index
+
+
+### 14.10.2019 17:14:05
+./templates/index.php
+
+
+### 14.10.2019 17:14:30
+index
+
+
+### 14.10.2019 17:14:30
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:14:30
+index
+
+
+### 14.10.2019 17:14:30
+./templates/index.php
+
+
+### 14.10.2019 17:15:09
+index
+
+
+### 14.10.2019 17:15:09
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:15:09
+index
+
+
+### 14.10.2019 17:15:09
+./templatesindex.php
+
+
+### 14.10.2019 17:15:12
+index
+
+
+### 14.10.2019 17:15:12
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:15:12
+index
+
+
+### 14.10.2019 17:15:12
+./templatesindex.php
+
+
+### 14.10.2019 17:15:14
+index
+
+
+### 14.10.2019 17:15:14
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:15:14
+index
+
+
+### 14.10.2019 17:15:14
+./templatesindex.php
+
+
+### 14.10.2019 17:15:19
+index
+
+
+### 14.10.2019 17:15:19
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:15:19
+index
+
+
+### 14.10.2019 17:15:19
+.templatesindex.php
+
+
+### 14.10.2019 17:15:21
+index
+
+
+### 14.10.2019 17:15:21
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:15:21
+index
+
+
+### 14.10.2019 17:15:21
+.templatesindex.php
+
+
+### 14.10.2019 17:15:21
+index
+
+
+### 14.10.2019 17:15:21
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:15:21
+index
+
+
+### 14.10.2019 17:15:21
+.templatesindex.php
+
+
+### 14.10.2019 17:15:22
+index
+
+
+### 14.10.2019 17:15:22
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:15:22
+index
+
+
+### 14.10.2019 17:15:22
+.templatesindex.php
+
+
+### 14.10.2019 17:15:29
+index
+
+
+### 14.10.2019 17:15:29
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:15:29
+index
+
+
+### 14.10.2019 17:15:29
+.tematesindex.php
+
+
+### 14.10.2019 17:15:30
+index
+
+
+### 14.10.2019 17:15:30
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:15:30
+index
+
+
+### 14.10.2019 17:15:30
+.tematesindex.php
+
+
+### 14.10.2019 17:15:30
+index
+
+
+### 14.10.2019 17:15:30
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:15:30
+index
+
+
+### 14.10.2019 17:15:30
+.tematesindex.php
+
+
+### 14.10.2019 17:15:31
+index
+
+
+### 14.10.2019 17:15:31
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:15:31
+index
+
+
+### 14.10.2019 17:15:31
+.tematesindex.php
+
+
+### 14.10.2019 17:15:52
+index
+
+
+### 14.10.2019 17:15:52
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:15:52
+index
+
+
+### 14.10.2019 17:15:52
+../templates/index.php
+
+
+### 14.10.2019 17:15:52
+../templates/menu.php
+
+
+### 14.10.2019 17:15:52
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:16:10
+index
+
+
+### 14.10.2019 17:16:10
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:16:10
+index
+
+
+### 14.10.2019 17:16:10
+../templates/index.php
+
+
+### 14.10.2019 17:16:10
+../templates/menu.php
+
+
+### 14.10.2019 17:16:10
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:16:49
+index
+
+
+### 14.10.2019 17:16:49
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:16:49
+index
+
+
+### 14.10.2019 17:16:49
+../templates/index.php
+
+
+### 14.10.2019 17:16:49
+../templates/menu.php
+
+
+### 14.10.2019 17:16:49
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:17:39
+index
+
+
+### 14.10.2019 17:17:39
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:17:39
+index
+
+
+### 14.10.2019 17:17:39
+../templates/index.php
+
+
+### 14.10.2019 17:17:39
+../templates/menu.php
+
+
+### 14.10.2019 17:17:39
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:17:46
+index
+
+
+### 14.10.2019 17:17:46
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:17:46
+index
+
+
+### 14.10.2019 17:17:46
+../templates/index.php
+
+
+### 14.10.2019 17:17:46
+../templates/menu.php
+
+
+### 14.10.2019 17:17:46
+../templates/layouts/main.php
+
+
+### 14.10.2019 17:18:02
+index
+
+
+### 14.10.2019 17:18:02
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:18:02
+index
+
+
+### 14.10.2019 17:18:02
+./../templates/index.php
+
+
+### 14.10.2019 17:18:02
+./../templates/menu.php
+
+
+### 14.10.2019 17:18:02
+./../templates/layouts/main.php
+
+
+### 14.10.2019 17:18:03
+index
+
+
+### 14.10.2019 17:18:03
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:18:03
+index
+
+
+### 14.10.2019 17:18:03
+./../templates/index.php
+
+
+### 14.10.2019 17:18:03
+./../templates/menu.php
+
+
+### 14.10.2019 17:18:03
+./../templates/layouts/main.php
+
+
+### 14.10.2019 17:18:03
+index
+
+
+### 14.10.2019 17:18:03
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [name] => Клен
+)
+
+
+
+### 14.10.2019 17:18:03
+index
+
+
+### 14.10.2019 17:18:03
+./../templates/index.php
+
+
+### 14.10.2019 17:18:03
+./../templates/menu.php
+
+
+### 14.10.2019 17:18:03
+./../templates/layouts/main.php
+
+
