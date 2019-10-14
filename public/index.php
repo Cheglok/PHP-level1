@@ -51,9 +51,14 @@ switch ($page) {
     case 'gallery':
         $params['imagesList'] = array_splice(scandir(PREVIEWS_DIR), 2);
         $params['headInfo'] = $galleryHeadInfo;
+        foreach ($params['imagesList'] as $param) {
+            echo $param;
+        }
 
 
 }
 
 echo render($page, $params);
+
+
 

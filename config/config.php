@@ -7,5 +7,3 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/../engine/functions.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "/../engine/log.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "/../data/menuList.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "/../data/galleryHeadInfo.php";
-echo dirname(DIR) . "/../templates/" . "<br>";
-echo TEMPLATES_DIR;
