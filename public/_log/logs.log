@@ -5968,3 +5968,2606 @@ image
 ./../templates/layouts/main.php
 
 
+### 15.10.2019 09:31:38
+index
+
+
+### 15.10.2019 09:31:38
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 60216  Threads: 2  Questions: 256277  Slow queries: 0  Opens: 2363  Flush tables: 2  Open tables: 400  Queries per second avg: 4.255
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2761
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:31:38
+index
+
+
+### 15.10.2019 09:31:38
+./../templates/index.php
+
+
+### 15.10.2019 09:31:38
+./../templates/menu.php
+
+
+### 15.10.2019 09:31:38
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:31:45
+index
+
+
+### 15.10.2019 09:31:45
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 60223  Threads: 2  Questions: 256459  Slow queries: 0  Opens: 2363  Flush tables: 2  Open tables: 400  Queries per second avg: 4.258
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2786
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:31:45
+index
+
+
+### 15.10.2019 09:31:45
+./../templates/index.php
+
+
+### 15.10.2019 09:31:45
+./../templates/menu.php
+
+
+### 15.10.2019 09:31:45
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:31:48
+gallery
+
+
+### 15.10.2019 09:31:48
+gallery
+
+
+### 15.10.2019 09:31:49
+./../templates/gallery.php
+
+
+### 15.10.2019 09:31:49
+./../templates/menu.php
+
+
+### 15.10.2019 09:31:49
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:31:51
+gallery
+
+
+### 15.10.2019 09:31:51
+gallery
+
+
+### 15.10.2019 09:31:51
+./../templates/gallery.php
+
+
+### 15.10.2019 09:31:51
+./../templates/menu.php
+
+
+### 15.10.2019 09:31:51
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:34:08
+gallery
+
+
+### 15.10.2019 09:34:08
+gallery
+
+
+### 15.10.2019 09:34:08
+./../templates/gallery.php
+
+
+### 15.10.2019 09:34:08
+./../templates/menu.php
+
+
+### 15.10.2019 09:34:08
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:34:12
+index
+
+
+### 15.10.2019 09:34:12
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 60370  Threads: 2  Questions: 256480  Slow queries: 0  Opens: 2363  Flush tables: 2  Open tables: 400  Queries per second avg: 4.248
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2790
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:34:12
+index
+
+
+### 15.10.2019 09:34:12
+./../templates/index.php
+
+
+### 15.10.2019 09:34:12
+./../templates/menu.php
+
+
+### 15.10.2019 09:34:12
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:34:46
+index
+
+
+### 15.10.2019 09:34:46
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 60404  Threads: 2  Questions: 256486  Slow queries: 0  Opens: 2363  Flush tables: 2  Open tables: 400  Queries per second avg: 4.246
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2791
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:34:46
+index
+
+
+### 15.10.2019 09:34:46
+./../templates/index.php
+
+
+### 15.10.2019 09:34:46
+./../templates/menu.php
+
+
+### 15.10.2019 09:34:46
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:35:14
+index
+
+
+### 15.10.2019 09:35:14
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 60432  Threads: 2  Questions: 256492  Slow queries: 0  Opens: 2363  Flush tables: 2  Open tables: 400  Queries per second avg: 4.244
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2792
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:35:14
+index
+
+
+### 15.10.2019 09:35:14
+./../templates/index.php
+
+
+### 15.10.2019 09:35:14
+./../templates/menu.php
+
+
+### 15.10.2019 09:35:14
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:35:42
+index
+
+
+### 15.10.2019 09:35:42
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 60460  Threads: 2  Questions: 256498  Slow queries: 0  Opens: 2363  Flush tables: 2  Open tables: 400  Queries per second avg: 4.242
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2793
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:35:42
+index
+
+
+### 15.10.2019 09:35:42
+./../templates/index.php
+
+
+### 15.10.2019 09:35:42
+./../templates/menu.php
+
+
+### 15.10.2019 09:35:42
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:35:45
+index
+
+
+### 15.10.2019 09:35:45
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 60463  Threads: 2  Questions: 256504  Slow queries: 0  Opens: 2363  Flush tables: 2  Open tables: 400  Queries per second avg: 4.242
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2794
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:35:45
+index
+
+
+### 15.10.2019 09:35:45
+./../templates/index.php
+
+
+### 15.10.2019 09:35:45
+./../templates/menu.php
+
+
+### 15.10.2019 09:35:45
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:36:11
+index
+
+
+### 15.10.2019 09:36:11
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 60489  Threads: 2  Questions: 256510  Slow queries: 0  Opens: 2363  Flush tables: 2  Open tables: 400  Queries per second avg: 4.240
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2795
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:36:11
+index
+
+
+### 15.10.2019 09:36:11
+./../templates/index.php
+
+
+### 15.10.2019 09:36:11
+./../templates/menu.php
+
+
+### 15.10.2019 09:36:11
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:37:44
+index
+
+
+### 15.10.2019 09:37:44
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 60582  Threads: 2  Questions: 256516  Slow queries: 0  Opens: 2363  Flush tables: 2  Open tables: 400  Queries per second avg: 4.234
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2796
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:37:44
+index
+
+
+### 15.10.2019 09:37:44
+./../templates/index.php
+
+
+### 15.10.2019 09:37:44
+./../templates/menu.php
+
+
+### 15.10.2019 09:37:44
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:37:46
+index
+
+
+### 15.10.2019 09:37:46
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 60584  Threads: 2  Questions: 256522  Slow queries: 0  Opens: 2363  Flush tables: 2  Open tables: 400  Queries per second avg: 4.234
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2797
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:37:46
+index
+
+
+### 15.10.2019 09:37:46
+./../templates/index.php
+
+
+### 15.10.2019 09:37:46
+./../templates/menu.php
+
+
+### 15.10.2019 09:37:46
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:38:02
+index
+
+
+### 15.10.2019 09:38:02
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 60600  Threads: 2  Questions: 256528  Slow queries: 0  Opens: 2363  Flush tables: 2  Open tables: 400  Queries per second avg: 4.233
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2798
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:38:02
+index
+
+
+### 15.10.2019 09:38:02
+./../templates/index.php
+
+
+### 15.10.2019 09:38:02
+./../templates/menu.php
+
+
+### 15.10.2019 09:38:02
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:40:05
+index
+
+
+### 15.10.2019 09:40:05
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 60723  Threads: 2  Questions: 256551  Slow queries: 0  Opens: 2372  Flush tables: 2  Open tables: 385  Queries per second avg: 4.224
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2799
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:40:05
+index
+
+
+### 15.10.2019 09:40:05
+./../templates/index.php
+
+
+### 15.10.2019 09:40:05
+./../templates/menu.php
+
+
+### 15.10.2019 09:40:05
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:40:09
+gallery
+
+
+### 15.10.2019 09:40:09
+gallery
+
+
+### 15.10.2019 09:40:09
+./../templates/gallery.php
+
+
+### 15.10.2019 09:40:09
+./../templates/menu.php
+
+
+### 15.10.2019 09:40:09
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:40:13
+index
+
+
+### 15.10.2019 09:40:13
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 60731  Threads: 2  Questions: 256611  Slow queries: 0  Opens: 2396  Flush tables: 2  Open tables: 385  Queries per second avg: 4.225
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2801
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:40:13
+index
+
+
+### 15.10.2019 09:40:13
+./../templates/index.php
+
+
+### 15.10.2019 09:40:13
+./../templates/menu.php
+
+
+### 15.10.2019 09:40:13
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:40:55
+index
+
+
+### 15.10.2019 09:40:55
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 60773  Threads: 2  Questions: 256618  Slow queries: 0  Opens: 2397  Flush tables: 2  Open tables: 386  Queries per second avg: 4.222
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2802
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:40:55
+index
+
+
+### 15.10.2019 09:40:55
+./../templates/index.php
+
+
+### 15.10.2019 09:40:55
+./../templates/menu.php
+
+
+### 15.10.2019 09:40:55
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:43:33
+index
+
+
+### 15.10.2019 09:43:33
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 60931  Threads: 2  Questions: 256624  Slow queries: 0  Opens: 2398  Flush tables: 2  Open tables: 387  Queries per second avg: 4.211
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2803
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:43:33
+index
+
+
+### 15.10.2019 09:43:33
+./../templates/index.php
+
+
+### 15.10.2019 09:43:33
+./../templates/menu.php
+
+
+### 15.10.2019 09:43:33
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:44:23
+index
+
+
+### 15.10.2019 09:44:23
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 60981  Threads: 2  Questions: 256631  Slow queries: 0  Opens: 2399  Flush tables: 2  Open tables: 388  Queries per second avg: 4.208
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2804
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:44:23
+index
+
+
+### 15.10.2019 09:44:23
+./../templates/index.php
+
+
+### 15.10.2019 09:44:23
+./../templates/menu.php
+
+
+### 15.10.2019 09:44:23
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:45:12
+index
+
+
+### 15.10.2019 09:45:12
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 61030  Threads: 2  Questions: 256638  Slow queries: 0  Opens: 2400  Flush tables: 2  Open tables: 389  Queries per second avg: 4.205
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2805
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:45:12
+index
+
+
+### 15.10.2019 09:45:12
+./../templates/index.php
+
+
+### 15.10.2019 09:45:12
+./../templates/menu.php
+
+
+### 15.10.2019 09:45:12
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:45:59
+index
+
+
+### 15.10.2019 09:45:59
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 61077  Threads: 2  Questions: 256644  Slow queries: 0  Opens: 2401  Flush tables: 2  Open tables: 390  Queries per second avg: 4.201
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2806
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:45:59
+index
+
+
+### 15.10.2019 09:45:59
+./../templates/index.php
+
+
+### 15.10.2019 09:45:59
+./../templates/menu.php
+
+
+### 15.10.2019 09:45:59
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:46:59
+index
+
+
+### 15.10.2019 09:46:59
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 61137  Threads: 2  Questions: 256649  Slow queries: 0  Opens: 2402  Flush tables: 2  Open tables: 391  Queries per second avg: 4.197
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2807
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:46:59
+index
+
+
+### 15.10.2019 09:46:59
+./../templates/index.php
+
+
+### 15.10.2019 09:46:59
+./../templates/menu.php
+
+
+### 15.10.2019 09:46:59
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:47:02
+index
+
+
+### 15.10.2019 09:47:02
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 61140  Threads: 2  Questions: 256654  Slow queries: 0  Opens: 2403  Flush tables: 2  Open tables: 392  Queries per second avg: 4.197
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2808
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:47:02
+index
+
+
+### 15.10.2019 09:47:02
+./../templates/index.php
+
+
+### 15.10.2019 09:47:02
+./../templates/menu.php
+
+
+### 15.10.2019 09:47:02
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:48:02
+index
+
+
+### 15.10.2019 09:48:02
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 1064
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+            [error_list] => Array
+                (
+                    [0] => Array
+                        (
+                            [errno] => 1064
+                            [sqlstate] => 42000
+                            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-level1' at line 1
+                        )
+
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 61200  Threads: 2  Questions: 256659  Slow queries: 0  Opens: 2404  Flush tables: 2  Open tables: 393  Queries per second avg: 4.193
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2809
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:48:02
+index
+
+
+### 15.10.2019 09:48:02
+./../templates/index.php
+
+
+### 15.10.2019 09:48:02
+./../templates/menu.php
+
+
+### 15.10.2019 09:48:02
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:49:33
+index
+
+
+### 15.10.2019 09:49:33
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => 15
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 61291  Threads: 2  Questions: 256664  Slow queries: 0  Opens: 2405  Flush tables: 2  Open tables: 394  Queries per second avg: 4.187
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2810
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:49:33
+index
+
+
+### 15.10.2019 09:49:33
+./../templates/index.php
+
+
+### 15.10.2019 09:49:33
+./../templates/menu.php
+
+
+### 15.10.2019 09:49:33
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:49:51
+index
+
+
+### 15.10.2019 09:49:51
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => 15
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 61309  Threads: 2  Questions: 256669  Slow queries: 0  Opens: 2406  Flush tables: 2  Open tables: 395  Queries per second avg: 4.186
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2811
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:49:51
+index
+
+
+### 15.10.2019 09:49:51
+./../templates/index.php
+
+
+### 15.10.2019 09:49:51
+./../templates/menu.php
+
+
+### 15.10.2019 09:49:51
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:50:37
+index
+
+
+### 15.10.2019 09:50:37
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => 15
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 61355  Threads: 2  Questions: 256674  Slow queries: 0  Opens: 2407  Flush tables: 2  Open tables: 396  Queries per second avg: 4.183
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2812
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:50:37
+index
+
+
+### 15.10.2019 09:50:37
+./../templates/index.php
+
+
+### 15.10.2019 09:50:37
+./../templates/menu.php
+
+
+### 15.10.2019 09:50:37
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:51:38
+index
+
+
+### 15.10.2019 09:51:38
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => 15
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 61416  Threads: 2  Questions: 256783  Slow queries: 0  Opens: 2414  Flush tables: 2  Open tables: 397  Queries per second avg: 4.181
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2829
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:51:38
+index
+
+
+### 15.10.2019 09:51:38
+./../templates/index.php
+
+
+### 15.10.2019 09:51:38
+./../templates/menu.php
+
+
+### 15.10.2019 09:51:38
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:53:01
+index
+
+
+### 15.10.2019 09:53:01
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => 15
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 61499  Threads: 2  Questions: 257048  Slow queries: 0  Opens: 2452  Flush tables: 2  Open tables: 389  Queries per second avg: 4.179
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2858
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:53:01
+index
+
+
+### 15.10.2019 09:53:01
+./../templates/index.php
+
+
+### 15.10.2019 09:53:01
+./../templates/menu.php
+
+
+### 15.10.2019 09:53:01
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:53:15
+gallery
+
+
+### 15.10.2019 09:53:15
+gallery
+
+
+### 15.10.2019 09:53:15
+./../templates/gallery.php
+
+
+### 15.10.2019 09:53:15
+./../templates/menu.php
+
+
+### 15.10.2019 09:53:15
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:53:54
+index
+
+
+### 15.10.2019 09:53:54
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => 15
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 61552  Threads: 2  Questions: 257072  Slow queries: 0  Opens: 2454  Flush tables: 2  Open tables: 391  Queries per second avg: 4.176
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2860
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:53:54
+index
+
+
+### 15.10.2019 09:53:54
+./../templates/index.php
+
+
+### 15.10.2019 09:53:54
+./../templates/menu.php
+
+
+### 15.10.2019 09:53:54
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:53:56
+catalog
+
+
+### 15.10.2019 09:53:56
+catalog
+
+
+### 15.10.2019 09:53:56
+./../templates/catalog.php
+
+
+### 15.10.2019 09:53:56
+./../templates/menu.php
+
+
+### 15.10.2019 09:53:56
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:54:03
+catalog
+
+
+### 15.10.2019 09:54:03
+catalog
+
+
+### 15.10.2019 09:54:03
+./../templates/catalog.php
+
+
+### 15.10.2019 09:54:03
+./../templates/menu.php
+
+
+### 15.10.2019 09:54:03
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:54:06
+gallery
+
+
+### 15.10.2019 09:54:06
+gallery
+
+
+### 15.10.2019 09:54:06
+./../templates/gallery.php
+
+
+### 15.10.2019 09:54:07
+./../templates/menu.php
+
+
+### 15.10.2019 09:54:07
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:54:09
+image
+
+
+### 15.10.2019 09:54:09
+image
+
+
+### 15.10.2019 09:54:09
+./../templates/image.php
+
+
+### 15.10.2019 09:54:09
+./../templates/menu.php
+
+
+### 15.10.2019 09:54:09
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:54:12
+image
+
+
+### 15.10.2019 09:54:12
+image
+
+
+### 15.10.2019 09:54:12
+./../templates/image.php
+
+
+### 15.10.2019 09:54:12
+./../templates/menu.php
+
+
+### 15.10.2019 09:54:12
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:54:13
+image
+
+
+### 15.10.2019 09:54:13
+image
+
+
+### 15.10.2019 09:54:13
+./../templates/image.php
+
+
+### 15.10.2019 09:54:13
+./../templates/menu.php
+
+
+### 15.10.2019 09:54:13
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:54:38
+gallery
+
+
+### 15.10.2019 09:54:38
+gallery
+
+
+### 15.10.2019 09:54:38
+./../templates/gallery.php
+
+
+### 15.10.2019 09:54:38
+./../templates/menu.php
+
+
+### 15.10.2019 09:54:38
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:54:41
+gallery
+
+
+### 15.10.2019 09:54:41
+gallery
+
+
+### 15.10.2019 09:54:41
+./../templates/gallery.php
+
+
+### 15.10.2019 09:54:41
+./../templates/menu.php
+
+
+### 15.10.2019 09:54:41
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:55:33
+index
+
+
+### 15.10.2019 09:55:33
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => 0
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 61651  Threads: 2  Questions: 257357  Slow queries: 0  Opens: 2487  Flush tables: 2  Open tables: 392  Queries per second avg: 4.174
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2901
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:55:33
+index
+
+
+### 15.10.2019 09:55:33
+./../templates/index.php
+
+
+### 15.10.2019 09:55:33
+./../templates/menu.php
+
+
+### 15.10.2019 09:55:33
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:55:35
+index
+
+
+### 15.10.2019 09:55:35
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => 0
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 61653  Threads: 2  Questions: 257362  Slow queries: 0  Opens: 2488  Flush tables: 2  Open tables: 393  Queries per second avg: 4.174
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2902
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:55:35
+index
+
+
+### 15.10.2019 09:55:35
+./../templates/index.php
+
+
+### 15.10.2019 09:55:35
+./../templates/menu.php
+
+
+### 15.10.2019 09:55:35
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:56:13
+index
+
+
+### 15.10.2019 09:56:13
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => 0
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 61691  Threads: 2  Questions: 257434  Slow queries: 0  Opens: 2488  Flush tables: 2  Open tables: 393  Queries per second avg: 4.172
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2917
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:56:13
+index
+
+
+### 15.10.2019 09:56:13
+./../templates/index.php
+
+
+### 15.10.2019 09:56:13
+./../templates/menu.php
+
+
+### 15.10.2019 09:56:13
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:58:45
+index
+
+
+### 15.10.2019 09:58:45
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => 0
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 61843  Threads: 2  Questions: 258002  Slow queries: 0  Opens: 2593  Flush tables: 2  Open tables: 390  Queries per second avg: 4.171
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 2979
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:58:45
+index
+
+
+### 15.10.2019 09:58:45
+./../templates/index.php
+
+
+### 15.10.2019 09:58:45
+./../templates/menu.php
+
+
+### 15.10.2019 09:58:45
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:59:10
+index
+
+
+### 15.10.2019 09:59:10
+Array
+(
+    [login] => admin
+    [menuList] => <ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/?page=catalog">Каталог</a></li>
+<li><a href="/?page=gallery">Галерея</a></li>
+<h4>Подменю</h4>
+<ul>
+<li><a href="#">ссылка1, пустая</a></li>
+<li><a href="#">ссылка2, пустая</a></li>
+</ul>
+</ul>
+
+    [headInfo] => 
+    [image] => 
+    [db] => mysqli Object
+        (
+            [affected_rows] => 15
+            [client_info] => mysqlnd 5.0.12-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $
+            [client_version] => 50012
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 4
+            [host_info] => localhost via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.15
+            [server_version] => 80015
+            [stat] => Uptime: 61868  Threads: 2  Questions: 258170  Slow queries: 0  Opens: 2631  Flush tables: 2  Open tables: 392  Queries per second avg: 4.172
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 3002
+            [warning_count] => 0
+        )
+
+    [name] => Клен
+)
+
+
+
+### 15.10.2019 09:59:10
+index
+
+
+### 15.10.2019 09:59:10
+./../templates/index.php
+
+
+### 15.10.2019 09:59:10
+./../templates/menu.php
+
+
+### 15.10.2019 09:59:10
+./../templates/layouts/main.php
+
+
+### 15.10.2019 09:59:26
+gallery
+
+
+### 15.10.2019 09:59:26
+gallery
+
+
+### 15.10.2019 09:59:26
+./../templates/gallery.php
+
+
+### 15.10.2019 09:59:26
+./../templates/menu.php
+
+
+### 15.10.2019 09:59:26
+./../templates/layouts/main.php
+
+
