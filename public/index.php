@@ -7,8 +7,11 @@ if (isset($_GET['page'])) {
 } else {
     $page = 'index';
 }
+if (isset($_GET['image'])) {
+    $image = $_GET['image'];
+}
 _log($page);
-$params = ['login' => 'admin', 'menuList' => makeMenu($links), 'headInfo' => ''];
+$params = ['login' => 'admin', 'menuList' => makeMenu($links), 'headInfo' => '', 'image' => $image, 'db' => $db];
 switch ($page) {
     case 'index':
         $params['name'] = 'Клен';
@@ -51,9 +54,8 @@ switch ($page) {
     case 'gallery':
         $params['imagesList'] = array_splice(scandir(PREVIEWS_DIR), 2);
         $params['headInfo'] = $galleryHeadInfo;
-        foreach ($params['imagesList'] as $param) {
-            echo $param;
-        }
+        $params['result'] = $result;
+
 
 
 }
