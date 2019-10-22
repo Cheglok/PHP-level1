@@ -1,0 +1,15 @@
+.item {
+    background-color: #ccc;
+    width: 200px;
+    padding: 20px 50px 20px;
+    margin: 50px;
+}
+.wrapper {
+    display: flex;
+}
+.card {
+    background-color: aliceblue;
+    width: 600px;
+    padding: 20px 50px 20px;
+    margin: 50px auto;
+}

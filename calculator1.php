@@ -16,7 +16,7 @@ function split($a, $b)
 {
     return ($b == 0) ? "Нельзя делить на 0" : $a / $b;
 }
-function shortCalculator($arg1, $arg2, $operation) //Короткий вариант функции
+function Calculator($arg1, $arg2, $operation)
 {
     return $operation($arg1, $arg2);
 }
@@ -45,7 +45,7 @@ if($operation) {
             $split = "selected";
             break;
     }
-    $result = shortCalculator($arg1, $arg2, $operation);
+    $result = Calculator($arg1, $arg2, $operation);
     $answer = "{$arg1} {$symbol} {$arg2} = {$result}";
 }
 
