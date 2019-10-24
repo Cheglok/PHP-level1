@@ -15,5 +15,5 @@ if (mysqli_num_rows($result) === 0) {
         mysqli_query($db, $a);
         $a = $b;
     }
-    var_dump("Дамп загружен!");
+    echo ("Дамп загружен!");
 }

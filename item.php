@@ -1,25 +1,23 @@
 <?php
-require_once "db.php";
-$action = "add";
-$buttonText = "Comment";
+require_once "config.php";
 
-$dogId = (int)($_REQUEST['dogId']);
+$dog_id = (int)($_REQUEST['dog_id']);
 
 switch ($_GET['action']) {
     case "add":
         if (!empty($_POST['submit'])) {
             $name = strip_tags(htmlspecialchars(mysqli_real_escape_string($db, $_POST['username'])));
             $feedback = strip_tags(htmlspecialchars(mysqli_real_escape_string($db, $_POST['feedback'])));
-            $dogId = (int)($_POST['dogId']);
-            $sql = "INSERT INTO `feedback` (`name`, `feedback`, `dogId`) VALUES ('{$name}', '{$feedback}', '{$dogId}');";
+            $dog_id = (int)($_POST['dog_id']);
+            $sql = "INSERT INTO `feedback` (`name`, `feedback`, `dog_id`) VALUES ('{$name}', '{$feedback}', '{$dog_id}');";
             $result = mysqli_query($db, $sql);
 
-            header("Location: /item.php?dogId={$dogId}&message=OK");
+            header("Location: /item.php?dog_id={$dog_id}&message=OK");
         }
         break;
     case "edit":
         $id = (int)($_GET['id']);
-        $dogId = (int)($_GET['dogId']);
+        $dog_id = (int)($_GET['dog_id']);
         $result = mysqli_query($db, "SELECT * FROM `feedback` WHERE id = {$id}");
         $row = mysqli_fetch_assoc($result);
         $buttonText = "Refactor comment";
@@ -32,36 +30,28 @@ switch ($_GET['action']) {
         $sql = "UPDATE `feedback` SET `name` = '{$name}', `feedback` = '{$feedback}' WHERE `feedback`.`id` = {$id};";
         $result = mysqli_query($db, $sql);
 
-        header("Location: /item.php?dogId={$dogId}&message=edit");
+        header("Location: /item.php?dog_id={$dog_id}&message=edit");
         break;
     case "delete":
         $id = (int)($_GET['id']);
         $sql = "DELETE FROM `feedback` WHERE id = {$id}";
         $result = mysqli_query($db, $sql);
 
-        header("Location: /item.php?dogId={$dogId}&message=delete");
+        header("Location: /item.php?dog_id={$dog_id}&message=delete");
+        break;
+    case "buy":
+        $dog_id = (int)($_POST['dog_id']);
+        $sql = "INSERT INTO `basket`(`dog_id`, `session`) VALUES ('{$dog_id}', '{$session_id}')";
+        $result = mysqli_query($db, $sql);
+
+        header("Location: /item.php?dog_id={$dog_id}&message=buy");
         break;
 }
 
-$result = mysqli_query($db, "SELECT * FROM `shop` WHERE id = '{$dogId}'");
+$result = mysqli_query($db, "SELECT * FROM `shop`dog WHERE id = '{$dog_id}'");
 $dog=mysqli_fetch_assoc($result);
-$feedback = mysqli_query($db, "SELECT * FROM `feedback` WHERE  dogId = '{$dogId}' ORDER BY `id` DESC");
+$feedback = mysqli_query($db, "SELECT * FROM `feedback` WHERE  dog_id = '{$dog_id}' ORDER BY `id` DESC");
 
-if (isset($_GET['message'])) {
-    switch ($_GET['message']) {
-        case "OK":
-            $message = "Сообщение добавлено";
-            break;
-        case "edit":
-            $message = "Сообщение отредактировано";
-            break;
-        case "delete":
-            $message = "Сообщение удалено";
-            break;
-        default:
-            $message = "";
-    }
-}
 ?>
 <!doctype html>
 <html lang="en">
@@ -73,15 +63,19 @@ if (isset($_GET['message'])) {
 <body>
 <div id="wrapper">
     <a href="index.php">Назад</a>
+    <a href="basket.php">Корзина</a>
         <div class="card">
             <img src="images/<?= $dog['picture'] ?>.jpeg" alt="puppy" width="600">
             <h3><?= $dog['name'] ?></h3>
             <p><?=$dog['description']?></p>
-            <button type="button">Купить</button>
+            <form method="post" action="?action=buy">
+                <input hidden type="text" name="dog_id" value="<?= $dog['id'] ?>">
+                <input type="submit" value="Купить">
+            </form>
             <h3>Обсуждение</h3>
             <form method="post" action="?action=<?= $action ?>">
                 <input hidden type="text" name="id" value="<?= $row['id'] ?>">
-                <input hidden type="text" name="dogId" value="<?= $dogId ?>">
+                <input hidden type="text" name="dog_id" value="<?= $dog_id ?>">
                 <input type="text" name="username" placeholder="username"
                        value="<?= $row['name'] ?>">
                 <input type="text" name="feedback" placeholder="your feedback"
@@ -91,8 +85,8 @@ if (isset($_GET['message'])) {
             </form>
             <? foreach ($feedback as $comment): ?>
                     <?= $comment['name'] ?>: <?= $comment['feedback'] ?><br>
-                    <a href="item.php?dogId=<?= $dog['id'] ?>&action=edit&dogId=<?= $dog['id'] ?>&id=<?= $comment['id'] ?>">[edit]</a>
-                    <a href="item.php?dogId=<?= $dog['id'] ?>&action=delete&dogId=<?= $dog['id'] ?>&id=<?= $comment['id'] ?>">[X]</a><br>
+                    <a href="item.php?dog_id=<?= $dog['id'] ?>&action=edit&dog_id=<?= $dog['id'] ?>&id=<?= $comment['id'] ?>">[edit]</a>
+                    <a href="item.php?dog_id=<?= $dog['id'] ?>&action=delete&dog_id=<?= $dog['id'] ?>&id=<?= $comment['id'] ?>">[X]</a><br>
             <? endforeach; ?>
         </div>
 </div>

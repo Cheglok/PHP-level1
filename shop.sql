@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Окт 22 2019 г., 07:25
+-- Время создания: Окт 24 2019 г., 21:33
 -- Версия сервера: 8.0.15
 -- Версия PHP: 7.1.22
 
@@ -19,8 +19,82 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- База данных: `php-level1`
+-- База данных: `php1`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `basket`
+--
+
+CREATE TABLE `basket` (
+  `id` int(11) NOT NULL,
+  `dog_id` int(11) NOT NULL,
+  `session` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `basket`
+--
+
+INSERT INTO `basket` (`id`, `dog_id`, `session`) VALUES
+(17, 1, 'duq1mr26fpbmongi3q1got15amjo92u1'),
+(22, 4, 'duq1mr26fpbmongi3q1got15amjo92u1'),
+(23, 2, 'duq1mr26fpbmongi3q1got15amjo92u1'),
+(24, 2, 'duq1mr26fpbmongi3q1got15amjo92u1');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `feedback`
+--
+
+CREATE TABLE `feedback` (
+  `id` int(11) NOT NULL,
+  `dog_id` int(11) NOT NULL,
+  `name` text NOT NULL,
+  `feedback` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `feedback`
+--
+
+INSERT INTO `feedback` (`id`, `dog_id`, `name`, `feedback`) VALUES
+(1, 1, 'Mishka', 'Очень нравится необычныйокрас'),
+(26, 2, 'Dasha', 'Not badd'),
+(27, 3, 'Tanya', 'Nice design'),
+(70, 1, 'Петр', 'Милый пёс. А прививки уже сделали?'),
+(84, 3, 'test', 'test'),
+(88, 4, 'катя', 'как дела'),
+(90, 3, 'Хозяин', 'Большой вырастет'),
+(91, 4, 'Станислав', 'Хочу забронировать'),
+(92, 2, 'Эксперт', 'Точно возьмет первое место'),
+(97, 1, 'Киса', 'Мяу'),
+(107, 2, 'Dasha', 'N'),
+(111, 2, 'вася', 'мой первый комментарий');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `orders`
+--
+
+CREATE TABLE `orders` (
+  `id` int(11) NOT NULL,
+  `session` text NOT NULL,
+  `tel` text NOT NULL,
+  `email` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `orders`
+--
+
+INSERT INTO `orders` (`id`, `session`, `tel`, `email`) VALUES
+(1, 'duq1mr26fpbmongi3q1got15amjo92u1', '78945446123', 'Kopytovmikhail@yandex.ru'),
+(2, 'duq1mr26fpbmongi3q1got15amjo92u1', '78945446123', 'Kopytovmikhail@yandex.ru');
 
 -- --------------------------------------------------------
 
@@ -45,57 +119,37 @@ INSERT INTO `shop` (`id`, `name`, `description`, `picture`) VALUES
 (3, 'AETHWY SOUL DEEP', 'Порода:\r\nВельш корги кардиган<br>\r\nСтрана происхождения:\r\nРоссия<br>\r\nЗаводчик:\r\nН. Трофимова и А. Хватов (Питомник Aethwy)<br>\r\nПол:\r\nКобель<br>\r\nДата рождения:\r\n17 мая 2019<br>\r\nОкрас:\r\nТрехцветный с тигровыми отметинами<br>', 'AETHWY_SOUL_DEEP'),
 (4, 'AETHWY SUN KING', 'Порода:\r\nВельш корги кардиган<br>\r\nСтрана происхождения:\r\nРоссия<br>\r\nЗаводчик:\r\nН. Трофимова и А. Хватов (Питомник Aethwy)<br>\r\nПол:\r\nКобель<br>\r\nДата рождения:\r\n17 мая 2019<br>\r\nОкрас:\r\nМраморный<br>', 'AETHWY_SUN_KING');
 
---
--- Индексы сохранённых таблиц
---
+-- --------------------------------------------------------
 
 --
--- Индексы таблицы `shop`
---
-ALTER TABLE `shop`
-  ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT для сохранённых таблиц
+-- Структура таблицы `user`
 --
 
---
--- AUTO_INCREMENT для таблицы `shop`
---
-ALTER TABLE `shop`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-
-CREATE TABLE `feedback` (
+CREATE TABLE `user` (
   `id` int(11) NOT NULL,
-  `dogId` int(11) NOT NULL,
   `name` text NOT NULL,
-  `feedback` text NOT NULL
+  `login` text NOT NULL,
+  `password` text NOT NULL,
+  `hash` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Дамп данных таблицы `feedback`
+-- Дамп данных таблицы `user`
 --
 
-INSERT INTO `feedback` (`id`, `dogId`, `name`, `feedback`) VALUES
-(1, 1, 'Mishka', 'Очень нравится необычныйокрас'),
-(26, 2, 'Dasha', 'Not bad'),
-(27, 3, 'Tanya', 'Nice design'),
-(70, 1, 'Петр', 'Милый пёс. А прививки уже сделали?'),
-(84, 3, 'test', 'test'),
-(88, 4, 'катя', 'как дела'),
-(90, 3, 'Хозяин', 'Большой вырастет'),
-(91, 4, 'Станислав', 'Хочу забронировать'),
-(92, 2, 'Эксперт', 'Точно возьмет первое место'),
-(97, 1, 'Киса', 'Мяу');
+INSERT INTO `user` (`id`, `name`, `login`, `password`, `hash`) VALUES
+(1, 'Admin', 'admin', '123', ''),
+(2, 'Cheglok', 'cheglok', 'qwerty', '');
 
 --
 -- Индексы сохранённых таблиц
 --
+
+--
+-- Индексы таблицы `basket`
+--
+ALTER TABLE `basket`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Индексы таблицы `feedback`
@@ -104,14 +158,56 @@ ALTER TABLE `feedback`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Индексы таблицы `orders`
+--
+ALTER TABLE `orders`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Индексы таблицы `shop`
+--
+ALTER TABLE `shop`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Индексы таблицы `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT для сохранённых таблиц
 --
+
+--
+-- AUTO_INCREMENT для таблицы `basket`
+--
+ALTER TABLE `basket`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT для таблицы `feedback`
 --
 ALTER TABLE `feedback`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=98;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=114;
+
+--
+-- AUTO_INCREMENT для таблицы `orders`
+--
+ALTER TABLE `orders`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT для таблицы `shop`
+--
+ALTER TABLE `shop`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT для таблицы `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
