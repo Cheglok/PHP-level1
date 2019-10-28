@@ -41,6 +41,7 @@ switch ($_GET['action']) {
         $dog_id = (int)($_POST['dog_id']);
         $sql = "INSERT INTO `basket`(`dog_id`, `session`) VALUES ('{$dog_id}', '{$session_id}')";
         $result = mysqli_query($db, $sql);
+        $_SESSION['basket_count'] += 1;
 
         header("Location: /?message=buy");
         break;
@@ -58,17 +59,8 @@ $feedback = mysqli_query($db, "SELECT * FROM `feedback` WHERE 1 ORDER BY `id` DE
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<a href="basket.php">Корзина(<?=$basketItems?>)</a><br><br>
-<? if (!$allow): ?>
-    <form method="post">
-        <p><input type="text" name="login" placeholder="login"/></p>
-        <p><input type="password" name="password" placeholder="password"/></p>
-        <p><input type="checkbox" name="remember" />REMEMBER ME</p>
-        <p><input type="submit" value="Войти" /></p>
-    </form>
-<? else:?>
-    <p>Добро пожаловать <?=$login?></p> <a href="/?logout">Выход</a>
-<? endif;?><br><br><br>
+<a href="basket.php">Корзина(<?=$_SESSION['basket_count']?>)</a><br><br>
+<?include 'authorization-form.php'?>
 <h3><?= $message ?></h3>
 <div class="wrapper">
     <? foreach ($result as $dog): ?>

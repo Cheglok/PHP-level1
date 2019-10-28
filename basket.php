@@ -1,15 +1,12 @@
 <?php
 require_once "config.php";
 
-$sql = "SELECT basket.id as basket_id, shop.name as name, shop.picture as picture FROM `basket`, `shop` WHERE basket.dog_id=shop.id AND session='{$session_id}'";
-$basket = mysqli_query($db, $sql);
-
-
 switch ($_GET['action']) {
     case "delete_item":
         $id = (int)($_GET['id']);
-        $sql = "DELETE FROM `basket` WHERE id = {$id}";
+        $sql = "DELETE FROM `basket` WHERE id = '{$id}' AND session = '{$session_id}'";
         $result = mysqli_query($db, $sql);
+        $_SESSION['basket_count'] -= 1;
 
         header("Location: basket.php?message=item_delete");
         break;
@@ -21,11 +18,16 @@ switch ($_GET['action']) {
         $email = strip_tags(htmlspecialchars(mysqli_real_escape_string($db, $_REQUEST['email'])));
         $sql = "INSERT INTO `orders`(`session`, `tel`, `email`) VALUES ('{$session_id}', '{$tel}', '{$email}')";
         $result = mysqli_query($db, $sql);
+        $sql="DELETE FROM `basket` WHERE `session`= '{$session_id}'";
+        $result = mysqli_query($db, $sql);
+        $_SESSION['basket_count'] = 0;
 
         header("Location: basket.php?message=confirm");
         break;
 }
 
+$sql = "SELECT basket.id as basket_id, shop.name as name, shop.picture as picture FROM `basket`, `shop` WHERE basket.dog_id=shop.id AND session='{$session_id}'";
+$basket = mysqli_query($db, $sql);
 ?>
 <!doctype html>
 <html lang="en">
@@ -36,17 +38,8 @@ switch ($_GET['action']) {
 </head>
 <body>
 <a href="index.php">Назад</a><br>
-<a href="basket.php">Корзина(<?=$basketItems?>)</a><br><br>
-<? if (!$allow): ?>
-    <form method="get">
-        <p><input type="text" name="login" placeholder="login"/></p>
-        <p><input type="password" name="password" placeholder="password"/></p>
-        <p><input type="checkbox" name="remember"/>REMEMBER ME</p>
-        <p><input type="submit" value="Войти"/></p>
-    </form>
-<? else: ?>
-    Добро пожаловать <?= $login ?> <a href="basket.php?logout">Выход</a>
-<? endif; ?><br><br><br>
+<a href="basket.php">Корзина(<?=$_SESSION['basket_count']?>)</a><br><br>
+<?include 'authorization-form.php'?>
 <h1><?= $message ?></h1>
 <? foreach ($basket as $item) : ?>
     <div class="basket-item">

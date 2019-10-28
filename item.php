@@ -43,6 +43,7 @@ switch ($_GET['action']) {
         $dog_id = (int)($_POST['dog_id']);
         $sql = "INSERT INTO `basket`(`dog_id`, `session`) VALUES ('{$dog_id}', '{$session_id}')";
         $result = mysqli_query($db, $sql);
+        $_SESSION['basket_count'] += 1;
 
         header("Location: /item.php?dog_id={$dog_id}&message=buy");
         break;
@@ -63,7 +64,7 @@ $feedback = mysqli_query($db, "SELECT * FROM `feedback` WHERE  dog_id = '{$dog_i
 <body>
 <div id="wrapper">
     <a href="index.php">Назад</a>
-    <a href="basket.php">Корзина</a>
+    <a href="basket.php">Корзина(<?=$_SESSION['basket_count']?>)</a><br><br>
         <div class="card">
             <img src="images/<?= $dog['picture'] ?>.jpeg" alt="puppy" width="600">
             <h3><?= $dog['name'] ?></h3>
