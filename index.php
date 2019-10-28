@@ -1,96 +1,147 @@
 <?php
-require_once "config.php";
 
-switch ($_GET['action']) {
-    case "add":
-        if (!empty($_POST['submit'])) {
-            $name = strip_tags(htmlspecialchars(mysqli_real_escape_string($db, $_POST['username'])));
-            $feedback = strip_tags(htmlspecialchars(mysqli_real_escape_string($db, $_POST['feedback'])));
-            $dog_id = (int)($_POST['dog_id']);
-            $sql = "INSERT INTO `feedback` (`name`, `feedback`, `dog_id`) VALUES ('{$name}', '{$feedback}', '{$dog_id}');";
-            $result = mysqli_query($db, $sql);
+class God //Без конструктора
+{
+    public $name;
+    public $power;
+    public static $creatures;
 
-            header("Location: /?message=OK");
+    function create($anything)
+    {
+        if ($this->power == "infinity") {
+            $this->creatures++;
+            echo "$this->creatures $this->name create $anything<br>";
+        } else {
+            echo "$this->creatures $this->name can't create $anything<br><br>";
         }
-        break;
-    case "edit":
-        $id = (int)($_GET['id']);
-        $dog_id = (int)($_GET['dog_id']);
-        $result = mysqli_query($db, "SELECT * FROM `feedback` WHERE id = {$id}");
-        $$dog_id = mysqli_fetch_assoc($result);
-        $$dog_id['refactor'] = "Change ";
-        $action = "update";
-        break;
-    case "update":
-        $name = strip_tags(htmlspecialchars(mysqli_real_escape_string($db, $_POST['username'])));
-        $feedback = strip_tags(htmlspecialchars(mysqli_real_escape_string($db, $_POST['feedback'])));
-        $id = (int)($_POST['id']);
-        $sql = "UPDATE `feedback` SET `name` = '{$name}', `feedback` = '{$feedback}' WHERE `feedback`.`id` = {$id};";
-        $result = mysqli_query($db, $sql);
-
-        header("Location: /?message=edit");
-        break;
-    case "delete":
-        $id = (int)($_GET['id']);
-        $sql = "DELETE FROM `feedback` WHERE id = {$id}";
-        $result = mysqli_query($db, $sql);
-
-        header("Location: /?message=delete");
-        break;
-    case "buy":
-        $dog_id = (int)($_POST['dog_id']);
-        $sql = "INSERT INTO `basket`(`dog_id`, `session`) VALUES ('{$dog_id}', '{$session_id}')";
-        $result = mysqli_query($db, $sql);
-        $_SESSION['basket_count'] += 1;
-
-        header("Location: /?message=buy");
-        break;
+    }
 }
-$result = mysqli_query($db, "SELECT * FROM `shop` WHERE 1 ");
-$feedback = mysqli_query($db, "SELECT * FROM `feedback` WHERE 1 ORDER BY `id` DESC");
+
+class Animal //Создание с конструктором
+{
+    public $name;
+    public $forse;
+    public $atrocity;
+    public $sound;
+
+    function __construct($name, $forse, $atrocity, $sound)
+    {
+        $this->name = $name;
+        $this->forse = $forse;
+        $this->atrocity = $atrocity;
+        $this->sound = $sound;
+    }
+
+    function voice()
+    {
+        echo "<br>$this->sound! I'am $this->name, $this->atrocity and $this->forse!!!<br><br>";
+    }
+}
+
+class Human extends God //Наследование
+{
+    public $proud;
+    function __construct()
+    {
+        $this->innerAnimal = new Animal("beast", "terrible", "cruel", "Oh my God");
+    }
+    function __call($funcName, $arg)
+    {
+        $this->innerAnimal->$funcName($arg); //Псевдонаследование от класса Animal
+    }
+
+    function destroy($anything){
+        if($this->proud == "proud"){
+            $this->creatures++;
+            echo "$this->creatures $this->name destroy $anything<br>";
+        }
+    }
+    function say(){
+        echo "<br>I'am $this->name, $this->power and $this->proud<br><br>";
+    }
+
+}
 
 
-?>
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Test</title>
-    <link href="css/style.css" rel="stylesheet">
-</head>
-<body>
-<a href="basket.php">Корзина(<?=$_SESSION['basket_count']?>)</a><br><br>
-<?include 'authorization-form.php'?>
-<h3><?= $message ?></h3>
-<div class="wrapper">
-    <? foreach ($result as $dog): ?>
-        <div class="item">
-            <form method="post" action="?action=buy">
-                <img src="images/<?= $dog['picture'] ?>.jpeg" alt="puppy" width="200">
-                <h3><?= $dog['name'] ?></h3>
-                <a href="item.php?dog_id=<?= $dog['id'] ?>">Подробнее...</a>
-                <input hidden type="text" name="dog_id" value="<?= $dog['id'] ?>">
-                <input type="submit" value="Купить">
-            </form>
-            <h3>Обсуждение</h3>
-            <form method="post" action="?action=<?= $action ?>">
-                <input hidden type="text" name="id" value="<?= ${$dog['id']}['id'] ?>">
-                <input hidden type="text" name="dog_id" value="<?= $dog['id'] ?>">
-                <input type="text" name="username" placeholder="username"
-                       value="<?= ${$dog['id']}['name'] ?>">
-                <input type="text" name="feedback" placeholder="your feedback"
-                       value="<?= ${$dog['id']}['feedback'] ?>">
-                <input type="submit" name="submit" value="<?= ${$dog['id']}['refactor'] . $buttonText ?>">
-            </form>
-            <? foreach ($feedback as $comment): ?>
-                <? if ($comment['dog_id'] == $dog['id']): ?>
-                    <?= $comment['name'] ?>: <?= $comment['feedback'] ?><br>
-                    <a href="?action=edit&dog_id=<?= $dog['id'] ?>&id=<?= $comment['id'] ?>">[edit]</a>
-                    <a href="?action=delete&dog_id=<?= $dog['id'] ?>&id=<?= $comment['id'] ?>">[X]</a><br>
-                <? endif; ?>
-            <? endforeach; ?>
-        </div>
-    <? endforeach; ?>
-</div>
-</body>
-</html>
+$god = new God();
+$god->name = "GOD";
+$god->power = "infinity";
+$god->create("lignt");
+$god->create("earth");
+$god->create("plants");
+$god->create("animals");
+
+$dog = new Animal("dog", "strong", "brutal", "vuf-vuf");
+$dog->voice();
+
+$god->create("human");
+
+$human = new Human();
+$human->power = "week";
+$human->name = "Adam";
+$human->proud = "proud";
+$human->say();
+$human->create("animals");
+$human->destroy("animals");
+$human->destroy("plants");
+$human->destroy("earth");
+$human->voice();
+echo "<br><br>";
+
+
+echo "<br>-----------------------task 5---------------<br>";
+//Дан код:Что он выведет на каждом шаге? Почему?
+class A {
+    public function foo() {
+        static $x = 0;
+        echo ++$x;
+    }
+}
+$a1 = new A(); //Не выведет ничего, мы просто создали объект
+$a2 = new A(); //Не выведет ничего, мы просто создали второй объект
+$a1->foo(); //Вызвав функцию foo мы создаём статическую переменную x, принадлежащую этому классу,
+//увеличиваем её на 1, а затем выводим на экран
+$a2->foo(); //Выведет 2
+//Статическая переменная принадлежит классу, а не объекту, а потому возрестёт и при вызове функции foo в другом объекте
+$a1->foo(); //выведет 3
+$a2->foo(); //выведет 4
+
+echo "<br>-----------------------task 6---------------<br>";
+//Немного изменим п.5:
+//Объясните результаты в этом случае.
+class C {
+    public function foo() {
+        static $x = 0;
+        echo ++$x;
+    }
+}
+class D extends C {
+}
+$a1 = new C();
+$b1 = new D(); //Код объектов А и В идентичен, но это разные классы
+$a1->foo(); //выведет 1
+$b1->foo(); //тоже выведет 1, т.к. у другого класса свои статические переменные
+$a1->foo(); //выведет 2
+$b1->foo(); //выведет 2
+
+echo "<br>-----------------------task 7---------------<br>";
+
+//7. *Дан код:
+//Что он выведет на каждом шаге? Почему?
+class E {
+    public function foo() {
+        static $x = 0;
+        echo ++$x;
+    }
+}
+class F extends E {
+}
+$a1 = new E; //Вся разница что я вижу - отсутствие круглых скобок при создании объекта.
+//Поскольку мы не передаём никаких параметров в функцию-конструктор это ни на что не влияет.
+// Задание не понял, может где-то ошибка?
+$b1 = new F;
+$a1->foo();
+$b1->foo();
+$a1->foo();
+$b1->foo();
+//Данное
