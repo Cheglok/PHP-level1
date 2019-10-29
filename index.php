@@ -4,15 +4,16 @@ class God //Без конструктора
 {
     public $name;
     public $power;
-    public static $creatures;
 
-    function create($anything)
+    public static $creatures = 0;
+
+    public function create($anything)
     {
         if ($this->power == "infinity") {
-            $this->creatures++;
-            echo "$this->creatures $this->name create $anything<br>";
+            self::$creatures++;
+            echo self::$creatures . "{$this->name} create {$anything}<br>";
         } else {
-            echo "$this->creatures $this->name can't create $anything<br><br>";
+            echo "{$this->name} can't create {$anything}<br><br>";
         }
     }
 }
@@ -41,6 +42,8 @@ class Animal //Создание с конструктором
 class Human extends God //Наследование
 {
     public $proud;
+    public static $destroy = 0;
+    protected $innerAnimal = null;
     function __construct()
     {
         $this->innerAnimal = new Animal("beast", "terrible", "cruel", "Oh my God");
@@ -52,12 +55,12 @@ class Human extends God //Наследование
 
     function destroy($anything){
         if($this->proud == "proud"){
-            $this->creatures++;
-            echo "$this->creatures $this->name destroy $anything<br>";
+            self::$destroy++;
+            echo self::$destroy . " $this->name destroy $anything<br>";
         }
     }
     function say(){
-        echo "<br>I'am $this->name, $this->power and $this->proud<br><br>";
+        echo "<br>I'am $this->name, $this->power but $this->proud<br><br>";
     }
 
 }
