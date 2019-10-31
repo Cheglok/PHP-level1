@@ -16,26 +16,28 @@ class God //Без конструктора
             echo "{$this->name} can't create {$anything}<br><br>";
         }
     }
+
 }
 
 class Animal //Создание с конструктором
 {
     public $name;
-    public $forse;
+    public $force;
     public $atrocity;
     public $sound;
 
-    function __construct($name, $forse, $atrocity, $sound)
+
+    function __construct($name, $force, $atrocity, $sound)
     {
         $this->name = $name;
-        $this->forse = $forse;
+        $this->force = $force;
         $this->atrocity = $atrocity;
         $this->sound = $sound;
     }
 
     function voice()
     {
-        echo "<br>$this->sound! I'am $this->name, $this->atrocity and $this->forse!!!<br><br>";
+        echo "<br>$this->sound! I'am $this->name, $this->atrocity and $this->force!!!<br><br>";
     }
 }
 
@@ -69,7 +71,7 @@ class Human extends God //Наследование
 $god = new God();
 $god->name = "GOD";
 $god->power = "infinity";
-$god->create("lignt");
+$god->create("light");
 $god->create("earth");
 $god->create("plants");
 $god->create("animals");
