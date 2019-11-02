@@ -1,36 +1,38 @@
 <?php
-
-use app\models\{Product, Users, Basket, Orders, Feedback};
-use app\engine\Db;
-use app\interfaces\IModels;
-
-include "../engine/Autoload.php";
-
-spl_autoload_register([new Autoload(), 'loadClass']);
-
-$product = new Product(new Db());
-$users = new Users(new Db());
-$basket = new Basket(new Db());
-$orders = new Orders(new Db());
-$feedback = new Feedback(new Db());
-
-function foo(IModels $model) {
-    return $model->getTableName();
-}
-
-echo foo($product);
-echo $product->getOne(1);
-
-echo foo($users);
-echo $users->getOne(1);
-
-echo foo($basket);
-echo $basket->getOne(1);
-
-echo foo($orders);
-echo $orders->getAll(1);
-
-echo foo($feedback);
-echo $feedback->getOne(1);
+echo "hello";
+//use app\models\{Product, Users, Basket, Orders, Feedback};
+//use app\engine\{Db, Autoload};
+//
+//include realpath("../config/config.php");
+//include realpath("../engine/Autoload.php");
+//
+//spl_autoload_register([new Autoload(), 'loadClass']);
+//
+//$db = new Db();
+//
+//$product = new Product($db);
+//$users = new Users($db);
+//$basket = new Basket($db);
+//$orders = new Orders($db);
+//$feedback = new Feedback($db);
+//
+//function foo($model) {
+//    return $model->getTableName();
+//}
+//
+//echo "<br>" . foo($product);
+//echo $product->getOne(1) . "<br>";
+//
+//echo foo($users);
+//echo $users->getOne(1) . "<br>";
+//
+//echo foo($basket);
+//echo $basket->getOne(1) . "<br>";
+//
+//echo foo($orders);
+//echo $orders->getAll(1) . "<br>";
+//
+//echo foo($feedback);
+//echo $feedback->getOne(1) . "<br>";
 
 
