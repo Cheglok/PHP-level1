@@ -1,37 +1,32 @@
 <?php
-use app\models\{Product, Users, Basket, Orders, Feedback};
-use app\engine\{Db, Autoload};
+
+use app\models\{Basket, Product, Users, Feedback, Orders};
+use app\engine\{Autoload, Db};
 
 include realpath("../config/config.php");
 include realpath("../engine/Autoload.php");
 
+
+
 spl_autoload_register([new Autoload(), 'loadClass']);
 
-$db = new Db();
 
-$product = new Product($db);
-$users = new Users($db);
-$basket = new Basket($db);
-$orders = new Orders($db);
-$feedback = new Feedback($db);
+$product = new Product("Пицца", "Описание", 125);
+$product->insert(); //Так осуществляется вставка
+var_dump($product);
 
-function foo($model) {
-    return $model->getTableName();
-}
+//$product->insert(); //Так можно сразу вставить и удалить, в разных запусках нельзя, т.к. id не передать между запусками
+//var_dump($product);
+//$product->delete(); //Изменения видны по id
+//var_dump($product);
 
-echo "<br>" . foo($product);
-echo $product->getOne(1) . "<br>";
+//$product = $product->getOne(86);
+//var_dump($product); //Извлекаем одну запись из БД с ручным заданием id
+//$product->delete(); //Можно сразу выполнить удаление
+//var_dump($product);
 
-echo foo($users);
-echo $users->getOne(1) . "<br>";
+//$product->getOne(83)->delete(); // Можно выполнить удаление в одну строчку с ручным заданием id
+//var_dump($product);
 
-echo foo($basket);
-echo $basket->getOne(1) . "<br>";
-
-echo foo($orders);
-echo $orders->getAll(1) . "<br>";
-
-echo foo($feedback);
-echo $feedback->getOne(1) . "<br>";
 
 

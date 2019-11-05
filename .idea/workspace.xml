@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6a0726f-b171-48ba-91a8-9c569a5a3d69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PHP-level1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/dump.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traits/Tsingletone.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/Autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/engine/Autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/engine/Db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Basket.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Feedback.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Feedback.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,9 +55,15 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../localhost" />
+    <property name="last_opened_file_path" value="F:/Downloads/engine3" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\localhost\PHP-level1" />
+      <recent name="D:\OSPanel\domains\localhost\PHP-level1\public" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

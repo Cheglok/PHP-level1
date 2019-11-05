@@ -3,12 +3,12 @@
 namespace app\engine;
 class Autoload
 {
-    public function loadClass($className) {
+    public function loadClass($className)
+    {
         $fileName = str_replace(["app", "\\"], [ROOT_DIR, DS], $className) . ".php";
-        var_dump($fileName);
-            if (file_exists($fileName)) {
-                include $fileName;
-            }
+        if (file_exists($fileName)) {
+            include $fileName;
+        }
     }
 
 }
