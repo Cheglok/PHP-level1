@@ -20,7 +20,6 @@ class Db
 
 
     private $connection = null;
-    private $dump = null;
 
     private function getConnection() {
         if (is_null($this->connection)) {
@@ -29,6 +28,7 @@ class Db
                 $this->config['password']
             );
             $this->connection->setAttribute(\PDO::ATTR_DEFAULT_FETCH_MODE, \PDO::FETCH_ASSOC);
+            $this->setDump();
         }
         return $this->connection;
     }
@@ -41,7 +41,21 @@ class Db
             $this->config['charset']
         );
     }
-    public function setDump(){}
+    private function setDump(){
+        $pdoStatement = $this->query("SHOW TABLES FROM " . $this->config['database'] . ";", $params=[]);
+        $result = $pdoStatement->fetchAll();
+        if(empty($result)) {
+            $dump = file_get_contents("shop.sql");
+            $a = 0;
+            while ($b = strpos($dump, ";", $a + 1)) {
+                $a = substr($dump, $a + 1, $b - $a);
+                $this->query($a, $params=[]);
+                $a = $b;
+            }
+            echo "Дамп загружен";
+        }
+    }
+
 
     private function query($sql, $params){
         $pdoStatement = $this->getConnection()->prepare($sql);
@@ -75,7 +89,7 @@ class Db
     public function insert($sql, $params) {
         var_dump($sql);
         var_dump($params);
-        $this->execute($sql, $params);
+        $this->query($sql, $params);
         return $this->getConnection()->lastInsertId();
     }
 

@@ -7,13 +7,12 @@ include realpath("../config/config.php");
 include realpath("../engine/Autoload.php");
 
 
-
 spl_autoload_register([new Autoload(), 'loadClass']);
 
 
 $product = new Product("Пицца", "Описание", 125);
 $product->insert(); //Так осуществляется вставка
-var_dump($product);
+//var_dump($product);
 
 //$product->insert(); //Так можно сразу вставить и удалить, в разных запусках нельзя, т.к. id не передать между запусками
 //var_dump($product);
