@@ -30,7 +30,7 @@ abstract class DbModel extends Model
         $params=[];
         $columns=[];
         foreach ($this as $key => $value) {
-            if ($key == "id") continue;
+            if ($key == "id" || $key == "changedFields") continue;
             $params[":{$key}"] = $value;
             $columns[] = "`{$key}`";
         }
@@ -42,17 +42,26 @@ abstract class DbModel extends Model
         return $this;
     }
 
+    public function update()
+    {
+        $tableName = $this->getTableName();
+        $params=[];
+        foreach ($this as $key => $value) {
+            if(in_array($key, $this->changedFields)) {
+                $params[] = "`{$key}`='{$value}'";
+            }
+        }
+        $params = implode(', ', $params);
+        $sql = "UPDATE `{$tableName}` SET  $params WHERE id = :id";
+        Db::getInstance()->execute($sql, ['id' => $this->id]);
+    }
+
     public function delete()
     {
         $tableName = static::getTableName();
         $sql = "DELETE FROM `{$tableName}` WHERE id = :id";
         Db::getInstance()->execute($sql, ['id' => $this->id]);
         return $this;
-    }
-
-    public function update()
-    {
-
     }
 
     public function save() {
@@ -69,6 +78,14 @@ abstract class DbModel extends Model
         $sql = "SELECT * FROM `{$tableName}` WHERE id = :id";
         $product = Db::getInstance()->queryObject($sql, ['id' => $id], $className);
         return $product;
+    }
+
+    public static function queryOne($id)
+    {
+        $className = static::class;
+        $tableName = static::getTableName();
+        $sql = "SELECT * FROM `{$tableName}` WHERE id = :id";
+        return Db::getInstance()->queryOne($sql, ['id' => $id], $className);
     }
 
     public static function getAll()

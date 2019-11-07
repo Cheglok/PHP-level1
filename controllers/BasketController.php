@@ -3,9 +3,10 @@
 
 namespace app\controllers;
 
+use app\models\Basket;
 use app\models\Product;
 
-class ProductController
+class BasketController
 {
     private $action;
     private $defaultAction = 'index';
@@ -23,19 +24,15 @@ class ProductController
     }
 
     public function actionIndex() {
-        echo $this->render('index');
+        $basket = Basket::getBasket();
+        echo $this->render('basket', ['basket' => $basket]);
     }
-
-    public function actionCatalog()
-    {
-        $catalog = Product::getAll();
-        echo $this->render('catalog', ['catalog' => $catalog]);
-    }
-
-    public function actionCard() {
-        $id = $_GET['id'];
-        $product = Product::queryOne($id);
-        echo $this->render('card', ['product' => $product]);
+    public function actionOrder() {
+        $basket = Basket::getBasket();
+        echo $this->render('basket', [
+            'basket' => $basket,
+                'form' => $this->renderTemplate('orderForm')]
+            );
     }
 
     public function render($template, $params = []) {

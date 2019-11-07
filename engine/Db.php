@@ -14,7 +14,7 @@ class Db
         'host' => 'localhost',
         'login' => 'root',
         'password' => '',
-        'database' => 'shop',
+        'database' => 'php1',
         'charset' => 'utf8'
     ];
 
@@ -42,7 +42,6 @@ class Db
     }
 
     private function query($sql, $params){
-        var_dump($sql, $params);
         $pdoStatement = $this->getConnection()->prepare($sql);
         $pdoStatement->execute($params);
         return $pdoStatement;
