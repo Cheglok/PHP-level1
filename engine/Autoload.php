@@ -1,6 +1,7 @@
 <?php
 
 namespace app\engine;
+
 class Autoload
 {
     public function loadClass($className)
@@ -10,5 +11,4 @@ class Autoload
             include $fileName;
         }
     }
-
 }

@@ -2,14 +2,14 @@
 
 namespace app\models;
 
-class Users extends Model
+class Users extends DbModel
 {
     public $id;
     public $name;
     public $login;
     public $password;
 
-    public function __construct($name, $login, $password)
+    public function __construct($name=null, $login=null, $password=null)
     {
         parent::__construct();
         $this->name = $name;
@@ -17,11 +17,9 @@ class Users extends Model
         $this->password = $password;
     }
 
-    public function getTableName()
+    public static function getTableName()
     {
         return "users";
     }
-    public function GetClass() {//Код дублируется, но не понимаю как вынести в model, там даёт результат Model
-        return get_class();
-    }
+
 }

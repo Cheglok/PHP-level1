@@ -4,14 +4,13 @@
 namespace app\models;
 
 
-class Orders extends Model
+class Orders extends DbModel
 {
-    public $id;
     public $session_id;
     public $tel;
     public $email;
 
-    public function __construct($session_id, $tel, $email)
+    public function __construct($session_id=null, $tel=null, $email=null)
     {
         parent::__construct();
         $this->session_id = $session_id;
@@ -19,11 +18,9 @@ class Orders extends Model
         $this->email = $email;
     }
 
-    public function getTableName()
+    public static function getTableName()
     {
         return "orders";
     }
-    public function GetClass() {//Код дублируется, но не понимаю как вынести в model, там даёт результат Model
-        return get_class();
-    }
+
 }

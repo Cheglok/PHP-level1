@@ -4,14 +4,13 @@
 namespace app\models;
 
 
-class Feedback extends Model
+class Feedback extends DbModel
 {
-    public $id;
     public $goods_id;
     public $name;
     public $feedback;
 
-    public function __construct($goods_id, $name, $feedback)
+    public function __construct($goods_id=null, $name=null, $feedback=null)
     {
         parent::__construct();
         $this->goods_id = $goods_id;
@@ -20,11 +19,9 @@ class Feedback extends Model
     }
 
 
-    public function getTableName()
+    public static function getTableName()
     {
         return "feedback";
     }
-    public function GetClass() {//Код дублируется, но не понимаю как вынести в model, там даёт результат Model
-        return get_class();
-    }
+
 }

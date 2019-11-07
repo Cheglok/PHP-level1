@@ -2,28 +2,24 @@
 
 namespace app\models;
 
-class Product extends Model
+class Product extends DbModel
 {
-    public $id;
-    public $name;
-    public $description;
-    public $price;
+    protected $name;
+    protected $description;
+    protected $price;
+    protected $image;
 
-    public function __construct($name="prod", $description="desc", $price="1")
+    public function __construct($name=null, $description=null, $price=null, $image=null)
     {
-        parent::__construct();
         $this->name = $name;
         $this->description = $description;
         $this->price = $price;
+        $this->image = $image;
     }
 
-    public function getTableName()
+    public static function getTableName()
    {
        return "goods";
    }
-
-    public function GetClass() { //Код дублируется, но не понимаю как вынести в model, там даёт результат Model
-        return get_class();
-    }
 
 }
