@@ -58,18 +58,21 @@ class Db
         return true;
     }
 
-    public function queryOne($sql, $params = [])
-    {
-        return $this->queryAll($sql, $params)[0];
-    }
-
     public function queryAll($sql, $params = [])
     {
+        var_dump($sql);
         return $this->query($sql, $params)->fetchAll();
     }
 
     public function lastInsertId() {
         return $this->getConnection()->lastInsertId();
+    }
+
+    public function executeLimit($sql, $number) {
+        $pdoStatement = $this->getConnection()->prepare($sql);
+        $pdoStatement->bindValue(1, $number, \PDO::PARAM_INT);
+        $pdoStatement->execute();
+        return $pdoStatement->fetchAll();
     }
 
     public function __toString()

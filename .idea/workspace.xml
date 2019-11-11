@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6a0726f-b171-48ba-91a8-9c569a5a3d69" name="Default Changelist" comment="" />
+    <list default="true" id="c6a0726f-b171-48ba-91a8-9c569a5a3d69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/Render.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/IRenderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/BasketController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/BasketController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/engine/Db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Basket.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/DbModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/DbModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/basket.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/card.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/card.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/catalog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +58,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/Downloads/engine4" />
+    <property name="last_opened_file_path" value="F:/Downloads/engine5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
@@ -90,6 +107,9 @@
       <workItem from="1572705494326" duration="1171000" />
       <workItem from="1572972180279" duration="1363000" />
       <workItem from="1573045582019" duration="15538000" />
+      <workItem from="1573296118951" duration="17167000" />
+      <workItem from="1573449700586" duration="818000" />
+      <workItem from="1573450533345" duration="317000" />
     </task>
     <servers />
   </component>

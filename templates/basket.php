@@ -1,4 +1,8 @@
 <?php
+/** @var Basket $basket */
+
+use app\models\Basket;
+
 ?>
 <h2>Корзина</h2>
 <? foreach ($basket as $item) : ?>
@@ -9,4 +13,3 @@
     </div>
 <? endforeach; ?>
 <a href="/basket/order">Оформить заказ</a>
-<?=$form?>

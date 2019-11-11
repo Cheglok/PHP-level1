@@ -8,35 +8,34 @@ use app\engine\Db;
 abstract class DbModel extends Model
 {
     protected $id;
-    public $changedFields = [];
 
-    public function __set($prop, $value)
+    public function getLimit($from)
     {
-        $this->$prop= $value;
-        $this->changedFields[] = $prop;
+        $tableName = static::getTableName();
+        $sql = "SELECT * FROM `{$tableName}` LIMIT ?";
+        return Db::getInstance()->executeLimit($sql, $from);
     }
 
-    public function getLimit($from, $to) {
-
-    }
-
-    public function getWhere($name, $value) {
+    public function getWhere($name, $value)
+    {
 
     }
 
     public function insert()
     {
         $tableName = $this->getTableName();
-        $params=[];
-        $columns=[];
-        foreach ($this as $key => $value) {
-            if ($key == "id" || $key == "changedFields") continue;
+        $params = [];
+        $columns = [];
+        foreach (array_keys($this->props) as $key) {
+            $value = $this->{$key};
             $params[":{$key}"] = $value;
             $columns[] = "`{$key}`";
         }
+
         $columns = implode(', ', $columns);
         $values = implode(', ', array_keys($params));
         $sql = "INSERT INTO `{$tableName}` ($columns) VALUES ($values)";
+        var_dump($sql);
         Db::getInstance()->execute($sql, $params);
         $this->id = Db::getInstance()->lastInsertId();
         return $this;
@@ -45,9 +44,11 @@ abstract class DbModel extends Model
     public function update()
     {
         $tableName = $this->getTableName();
-        $params=[];
-        foreach ($this as $key => $value) {
-            if(in_array($key, $this->changedFields)) {
+        $params = [];
+        foreach ($this->props as $key => $changed) {
+            if ($changed) {
+                $this->props[$key] = false;
+                $value = $this->{$key};
                 $params[] = "`{$key}`='{$value}'";
             }
         }
@@ -64,7 +65,8 @@ abstract class DbModel extends Model
         return $this;
     }
 
-    public function save() {
+    public function save()
+    {
         if (is_null($this->id))
             $this->insert();
         else
@@ -78,14 +80,6 @@ abstract class DbModel extends Model
         $sql = "SELECT * FROM `{$tableName}` WHERE id = :id";
         $product = Db::getInstance()->queryObject($sql, ['id' => $id], $className);
         return $product;
-    }
-
-    public static function queryOne($id)
-    {
-        $className = static::class;
-        $tableName = static::getTableName();
-        $sql = "SELECT * FROM `{$tableName}` WHERE id = :id";
-        return Db::getInstance()->queryOne($sql, ['id' => $id], $className);
     }
 
     public static function getAll()

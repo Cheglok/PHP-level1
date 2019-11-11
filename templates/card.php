@@ -1,7 +1,7 @@
 <?php
-/** @var \app\models\Product $product */
+/** @var Product $product */
 
-?>
+use app\models\Product; ?>
 
 <div class="item">
     <form method="post" action="?action=buy">

@@ -20,7 +20,6 @@ class Basket extends DbModel
     }
 
     public function getBasket() {
-        $className = static::class;
         $tableName = static::getTableName();
         $sql = "SELECT * FROM `{$tableName}`"; //Здесь надо сложный sql запрос, собирающий данные с нескольких таблиц, я пока так не умею
         $basket = Db::getInstance()->queryAll($sql, $params=[]);
