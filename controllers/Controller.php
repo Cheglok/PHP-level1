@@ -4,6 +4,7 @@
 namespace app\controllers;
 
 use app\interfaces\IRenderer;
+use app\models\Users;
 
 class Controller implements IRenderer
 {
@@ -37,7 +38,11 @@ class Controller implements IRenderer
         if ($this->useLayout) {
             return $this->renderTemplate("layouts/{$this->layout}", [
                 'menu' => $this->renderTemplate('menu'),
-                'content' => $this->renderTemplate($template, $params)
+                'content' => $this->renderTemplate($template, $params),
+                'authorization' => $this->renderTemplate('authorization', [
+                    'auth' => Users::isAuth(),
+                    'userName' => Users::getName()
+                    ])
             ]);
         } else {
             return $this->renderTemplate($template, $params = []);
@@ -47,6 +52,9 @@ class Controller implements IRenderer
     public function renderTemplate($template, $params = []) {
         return $this->renderer->renderTemplate($template, $params);
     }
+
+
+
 
 
 }

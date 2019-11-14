@@ -60,7 +60,6 @@ class Db
 
     public function queryAll($sql, $params = [])
     {
-        var_dump($sql);
         return $this->query($sql, $params)->fetchAll();
     }
 

@@ -16,9 +16,11 @@ abstract class DbModel extends Model
         return Db::getInstance()->executeLimit($sql, $from);
     }
 
-    public function getWhere($name, $value)
+    public function getWhere($field, $value)
     {
-
+        $tableName = static::getTableName();
+        $sql = "SELECT * FROM `{$tableName}` WHERE `$field` = :value";
+        return Db::getInstance()->queryObject($sql, ['value' => $value], static::class);
     }
 
     public function insert()
