@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Ноя 14 2019 г., 22:08
+-- Время создания: Ноя 17 2019 г., 16:23
 -- Версия сервера: 8.0.15
 -- Версия PHP: 7.1.22
 
@@ -33,16 +33,6 @@ CREATE TABLE `basket` (
   `goods_id` int(11) NOT NULL,
   `session_id` text CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Дамп данных таблицы `basket`
---
-
-INSERT INTO `basket` (`id`, `goods_id`, `session_id`) VALUES
-(40, 1, 'duq1mr26fpbmongi3q1got15amjo92u1'),
-(41, 3, 'duq1mr26fpbmongi3q1got15amjo92u1'),
-(42, 4, 'duq1mr26fpbmongi3q1got15amjo92u1'),
-(43, 15, '214356234');
 
 -- --------------------------------------------------------
 
@@ -136,7 +126,6 @@ INSERT INTO `orders` (`id`, `session_id`, `tel`, `email`) VALUES
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
-  `name` text NOT NULL,
   `login` text NOT NULL,
   `password` text NOT NULL,
   `hash` text CHARACTER SET utf8 COLLATE utf8_general_ci
@@ -146,20 +135,9 @@ CREATE TABLE `users` (
 -- Дамп данных таблицы `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `login`, `password`, `hash`) VALUES
-(1, 'Admin', 'admin', '123', ''),
-(2, 'Cheglok', 'cheglok', 'qwerty', ''),
-(5, '15', '214356234', 'asddg', NULL),
-(6, '15', '214356234', 'asddg', NULL),
-(9, '15', '214356234', 'asddg', NULL),
-(10, '15', '214356234', 'asddg', NULL),
-(11, '15', '214356234', 'asddg', NULL),
-(12, '15', '214356234', 'asddg', NULL),
-(13, '15', '214356234', 'asddg', NULL),
-(16, '15', '214356234', 'asddg', NULL),
-(17, '15', '214356234', 'asddg', NULL),
-(18, '15', '214356234', 'asddg', NULL),
-(22, '15', '214356234', 'asddg', NULL);
+INSERT INTO `users` (`id`, `login`, `password`, `hash`) VALUES
+(24, 'admin', '$2y$10$GAh95KWqFf1Fw4YyH/BCnuODYbJ1Mln78vDuOIwj7WQvChhR8QcX.', '1887021715dd1425ae5f742.42585933'),
+(25, 'cheglok', '$2y$10$56LaJF2q1SNsZw2XR327PeUlou0mBLmkehMLLZu1KrkWmRMH3Stwe', '18195686305dd1402a497184.56523664');
 
 --
 -- Индексы сохранённых таблиц
@@ -203,7 +181,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT для таблицы `basket`
 --
 ALTER TABLE `basket`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=75;
 
 --
 -- AUTO_INCREMENT для таблицы `feedback`
@@ -227,7 +205,7 @@ ALTER TABLE `orders`
 -- AUTO_INCREMENT для таблицы `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
