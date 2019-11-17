@@ -16,8 +16,14 @@ abstract class DbModel extends Model
         return Db::getInstance()->executeLimit($sql, $from);
     }
 
-    public function getWhere($field, $value)
+    public function getCountWhere($field, $value)
     {
+        $tableName = static::getTableName();
+        $sql = "SELECT COUNT(*) as count FROM `{$tableName}` WHERE `$field` = :value";
+        return Db::getInstance()->queryOne($sql, ['value' => $value])['count'];
+    }
+
+    public function getWhere($field, $value) {
         $tableName = static::getTableName();
         $sql = "SELECT * FROM `{$tableName}` WHERE `$field` = :value";
         return Db::getInstance()->queryObject($sql, ['value' => $value], static::class);
@@ -37,7 +43,6 @@ abstract class DbModel extends Model
         $columns = implode(', ', $columns);
         $values = implode(', ', array_keys($params));
         $sql = "INSERT INTO `{$tableName}` ($columns) VALUES ($values)";
-        var_dump($sql);
         Db::getInstance()->execute($sql, $params);
         $this->id = Db::getInstance()->lastInsertId();
         return $this;
@@ -59,12 +64,12 @@ abstract class DbModel extends Model
         Db::getInstance()->execute($sql, ['id' => $this->id]);
     }
 
-    public function delete()
+    public static function delete($id)
     {
         $tableName = static::getTableName();
         $sql = "DELETE FROM `{$tableName}` WHERE id = :id";
-        Db::getInstance()->execute($sql, ['id' => $this->id]);
-        return $this;
+        Db::getInstance()->execute($sql, ['id' => $id]);
+        return true;
     }
 
     public function save()

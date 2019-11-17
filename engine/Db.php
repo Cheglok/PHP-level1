@@ -58,6 +58,11 @@ class Db
         return true;
     }
 
+    public function queryOne($sql, $params = [])
+    {
+        return $this->queryAll($sql, $params)[0];
+    }
+
     public function queryAll($sql, $params = [])
     {
         return $this->query($sql, $params)->fetchAll();

@@ -1,5 +1,6 @@
 <?php
-/** @var Product $catalog*/
+/** @var Product $catalog */
+/** @var int $page */
 
 use app\models\Product;
 
@@ -8,14 +9,37 @@ use app\models\Product;
 <div class="wrapper">
     <? foreach ($catalog as $dog): ?>
         <div class="item">
-            <form method="post">
-                <img src="/img/<?= $dog['image'] ?>" alt="puppy" width="200">
-                <h3><?= $dog['name'] ?></h3>
-                <a href="/product/card/?id=<?= $dog['id']?>">Подробнее...</a>
-                <input hidden type="text" name="dog_id" value="<?= $dog['id'] ?>">
-                <input type="submit" value="Купить">
-            </form>
+            <img src="/img/<?= $dog['image'] ?>" alt="puppy" width="200">
+            <h3><?= $dog['name'] ?></h3>
+            <a href="/product/card/?id=<?= $dog['id'] ?>">Подробнее...</a>
+            <button data-id="<?= $dog['id'] ?>" class="buy">Купить</button>
         </div>
     <? endforeach; ?>
-    <p><a href="/product/catalog/?page=<?=$page?>">ещё</a></p>
+    <p><a href="/product/catalog/?page=<?= $page ?>">ещё</a></p>
 </div>
+
+<script>
+    let buttons = document.querySelectorAll('.buy');
+
+    buttons.forEach((elem)=> {
+       elem.addEventListener('click', ()=>{
+           let id = elem.getAttribute('data-id');
+           (
+               async ()=> {
+                   const response = await fetch('/basket/addToBasket/', {
+                       method: 'POST',
+                       headers: new Headers({
+                           'Content-Type': 'application/json'
+                       }),
+                       body: JSON.stringify({
+                           id: id
+                       })
+                   });
+                   const answer = await response.json();
+                   document.getElementById('count').innerText = answer.count;
+                   console.log(answer.id)
+               }
+           )()
+       })
+    });
+</script>
