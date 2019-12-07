@@ -1,14 +1,16 @@
 <?php
 
 
-namespace app\models;
+namespace app\models\entities;
+
+use app\models\Model;
 
 
-class Orders extends DbModel
+class Orders extends Model
 {
-    public $session_id;
-    public $tel;
-    public $email;
+    protected $session_id;
+    protected $tel;
+    protected $email;
 
     public function __construct($session_id=null, $tel=null, $email=null)
     {

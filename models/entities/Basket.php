@@ -5,8 +5,8 @@ use app\engine\Db;
 
 class Basket extends DbModel
 {
-    public $goods_id;
-    public $session_id;
+    protected $goods_id;
+    protected $session_id;
     protected $props = [
         'goods_id' =>false,
         'session_id' =>false

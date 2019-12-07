@@ -6,9 +6,9 @@ namespace app\models;
 
 class Feedback extends DbModel
 {
-    public $goods_id;
-    public $name;
-    public $feedback;
+    protected $goods_id;
+    protected $name;
+    protected $feedback;
 
     public function __construct($goods_id=null, $name=null, $feedback=null)
     {

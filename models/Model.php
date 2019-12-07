@@ -2,9 +2,8 @@
 
 namespace app\models;
 
-use app\interfaces\IModels;
 
-abstract class Model implements IModels
+abstract class Model
 {
     public function __set($prop, $value)
     {

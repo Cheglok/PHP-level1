@@ -5,7 +5,7 @@ namespace app\models;
 
 use app\engine\Db;
 
-abstract class DbModel extends Model
+abstract class Repository extends Model
 {
     protected $id;
 
@@ -23,7 +23,8 @@ abstract class DbModel extends Model
         return Db::getInstance()->queryOne($sql, ['value' => $value])['count'];
     }
 
-    public function getWhere($field, $value) {
+    public function getWhere($field, $value)
+    {
         $tableName = static::getTableName();
         $sql = "SELECT * FROM `{$tableName}` WHERE `$field` = :value";
         return Db::getInstance()->queryObject($sql, ['value' => $value], static::class);
@@ -64,12 +65,19 @@ abstract class DbModel extends Model
         Db::getInstance()->execute($sql, ['id' => $this->id]);
     }
 
-    public static function delete($id)
+    public function delete()
     {
         $tableName = static::getTableName();
         $sql = "DELETE FROM `{$tableName}` WHERE id = :id";
-        Db::getInstance()->execute($sql, ['id' => $id]);
+        Db::getInstance()->execute($sql, [':id' => $this->id]);
         return true;
+    }
+
+    public function deleteWhere($field, $value)
+    {
+        $tableName = static::getTableName();
+        $sql = "DELETE FROM `{$tableName}` WHERE id = :id AND `$field` = :value ";
+        return Db::getInstance()->execute($sql, [':id' => $this->id, ':value' => $value]);
     }
 
     public function save()

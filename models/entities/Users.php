@@ -14,7 +14,6 @@ class Users extends DbModel
     protected $hash;
     protected $props = [
         'id' => false,
-        'name' => false,
         'login' => false,
         'password' => false,
         'hash' => false
@@ -35,9 +34,8 @@ class Users extends DbModel
     public static function isAuth()
     {
        if (isset($_COOKIE["hash"])) {
-           var_dump('authorization by cookie');
            $hash = $_COOKIE["hash"];
-           $user = Db::getInstance()->getWhere('hash', $hash);
+           $user = static::getWhere('hash', $hash);
            if (!empty($user)) {
                $_SESSION['login'] = $user->login;
            }
@@ -63,19 +61,18 @@ class Users extends DbModel
 
     public static function saveUser() {
 
-//        $login = static::getName();
-//        $user = static::getWhere('login', $login);
-//        $user->hash = uniqid(rand(), true);
-//        $user->props['hash'] = true;
-//        $user->save();
-//        setcookie("hash", $user->hash, time() + 3600);
+        $login = static::getName();
+        $user = static::getWhere('login', $login);
+        $user->hash = uniqid(rand(), true);
+        $user->props['hash'] = true;
+        $user->save();
+        setcookie("hash", $user->hash, time() + 3600, "/");
         //Здесь мы используем заранее написанный общий метод update, но приходится создавать объект user и два раза делать запрос к БД
+
         //Можно написать отдельный метод
-
-
-        $hash = uniqid(rand(), true);
-        $sql = "UPDATE `users` SET `hash` = :hash WHERE `users`.`id` = :id";
-        Db::getInstance()->execute($sql, [':hash'=>$hash, ':id' => $_SESSION['id']]);
-        setcookie("hash", $hash, time() + 3600);
+//        $hash = uniqid(rand(), true);
+//        $sql = "UPDATE `users` SET `hash` = :hash WHERE `users`.`id` = :id";
+//        Db::getInstance()->execute($sql, [':hash'=>$hash, ':id' => $_SESSION['id']]);
+//        setcookie("hash", $hash, time() + 3600, "/");
     }
 }
