@@ -1,5 +1,5 @@
 <?php
-/** @var Product $catalog */
+/** @var ProductTest $catalog */
 /** @var int $page */
 
 use app\models\Product;
@@ -18,28 +18,4 @@ use app\models\Product;
     <p><a href="/product/catalog/?page=<?= $page ?>">ещё</a></p>
 </div>
 
-<script>
-    let buttons = document.querySelectorAll('.buy');
-
-    buttons.forEach((elem)=> {
-       elem.addEventListener('click', ()=>{
-           let id = elem.getAttribute('data-id');
-           (
-               async ()=> {
-                   const response = await fetch('/basket/addToBasket/', {
-                       method: 'POST',
-                       headers: new Headers({
-                           'Content-Type': 'application/json'
-                       }),
-                       body: JSON.stringify({
-                           id: id
-                       })
-                   });
-                   const answer = await response.json();
-                   document.getElementById('count').innerText = answer.count;
-                   console.log(answer.id)
-               }
-           )()
-       })
-    });
-</script>
+<script src="/js/buyingScript.js"></script>

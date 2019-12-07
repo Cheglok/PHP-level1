@@ -1,10 +1,21 @@
 <?php
 
 
-namespace app\models;
+namespace app\models\repositories;
 
 
-class ProductRepository
+use app\models\entities\Product;
+use app\models\Repository;
+
+class ProductRepository extends Repository
 {
+    public function getTableName()
+    {
+        return "goods";
+    }
 
+    public function getEntityClass()
+    {
+        return Product::class;
+    }
 }

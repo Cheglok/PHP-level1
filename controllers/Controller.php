@@ -4,8 +4,11 @@
 namespace app\controllers;
 
 use app\interfaces\IRenderer;
-use app\models\Basket;
-use app\models\Users;
+use app\models\entities\Basket;
+use app\models\entities\Users;
+use app\models\repositories\BasketRepository;
+use app\models\repositories\OrderRepository;
+use app\models\repositories\UserRepository;
 
 class Controller implements IRenderer
 {
@@ -39,12 +42,14 @@ class Controller implements IRenderer
         if ($this->useLayout) {
             return $this->renderTemplate("layouts/{$this->layout}", [
                 'menu' => $this->renderTemplate('menu', [
-                    'count' => Basket::getCountWhere('session_id', session_id())
+                    'count' => (new BasketRepository())->getCountWhere('session_id', session_id()),
+                    'auth' => (new UserRepository())->isAuth(),
+                    'ordersCount' => (new OrderRepository())->getCountWhere('session_id', session_id())
                 ]),
                 'content' => $this->renderTemplate($template, $params),
                 'authorization' => $this->renderTemplate('authorization', [
-                    'auth' => Users::isAuth(),
-                    'userName' => Users::getName()
+                    'auth' => (new UserRepository())->isAuth(),
+                    'userName' => (new UserRepository())->getName()
                     ])
             ]);
         } else {

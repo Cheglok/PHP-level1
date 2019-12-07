@@ -1,10 +1,12 @@
 <?php
 
 
-namespace app\models;
+namespace app\models\entities;
+
+use app\models\Model;
 
 
-class Feedback extends DbModel
+class Feedback extends Model
 {
     protected $goods_id;
     protected $name;

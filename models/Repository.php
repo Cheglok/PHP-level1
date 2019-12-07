@@ -4,11 +4,10 @@
 namespace app\models;
 
 use app\engine\Db;
+use app\interfaces\IModels;
 
-abstract class Repository extends Model
+abstract class Repository implements IModels
 {
-    protected $id;
-
     public function getLimit($from)
     {
         $tableName = static::getTableName();
@@ -27,16 +26,16 @@ abstract class Repository extends Model
     {
         $tableName = static::getTableName();
         $sql = "SELECT * FROM `{$tableName}` WHERE `$field` = :value";
-        return Db::getInstance()->queryObject($sql, ['value' => $value], static::class);
+        return Db::getInstance()->queryObject($sql, ['value' => $value], $this->getEntityClass());
     }
 
-    public function insert()
+    public function insert(Model $entity)
     {
-        $tableName = $this->getTableName();
+        $tableName = static::getTableName();
         $params = [];
         $columns = [];
-        foreach (array_keys($this->props) as $key) {
-            $value = $this->{$key};
+        foreach (array_keys($entity->props) as $key) {
+            $value = $entity->{$key};
             $params[":{$key}"] = $value;
             $columns[] = "`{$key}`";
         }
@@ -45,64 +44,61 @@ abstract class Repository extends Model
         $values = implode(', ', array_keys($params));
         $sql = "INSERT INTO `{$tableName}` ($columns) VALUES ($values)";
         Db::getInstance()->execute($sql, $params);
-        $this->id = Db::getInstance()->lastInsertId();
-        return $this;
+        $entity->id = Db::getInstance()->lastInsertId();
     }
 
-    public function update()
+    public function update(Model $entity)
     {
-        $tableName = $this->getTableName();
+        $tableName = static::getTableName();
         $params = [];
-        foreach ($this->props as $key => $changed) {
+        foreach ($entity->props as $key => $changed) {
             if ($changed) {
-                $this->props[$key] = false;
-                $value = $this->{$key};
+                $entity->props[$key] = false;
+                $value = $entity->{$key};
                 $params[] = "`{$key}`='{$value}'";
             }
         }
         $params = implode(', ', $params);
         $sql = "UPDATE `{$tableName}` SET  $params WHERE id = :id";
-        Db::getInstance()->execute($sql, ['id' => $this->id]);
+        Db::getInstance()->execute($sql, ['id' => $entity->id]);
     }
 
-    public function delete()
+    public function delete(Model $entity)
     {
         $tableName = static::getTableName();
         $sql = "DELETE FROM `{$tableName}` WHERE id = :id";
-        Db::getInstance()->execute($sql, [':id' => $this->id]);
+        Db::getInstance()->execute($sql, [':id' => $entity->id]);
         return true;
     }
 
-    public function deleteWhere($field, $value)
+    public function deleteWhere($entity, $field, $value)
     {
         $tableName = static::getTableName();
-        $sql = "DELETE FROM `{$tableName}` WHERE id = :id AND `$field` = :value ";
-        return Db::getInstance()->execute($sql, [':id' => $this->id, ':value' => $value]);
+        $sql = "DELETE FROM `{$tableName}` WHERE goods_id = :id AND `$field` = :value";
+        return Db::getInstance()->execute($sql, [':id' => $entity->goods_id, ':value' => $value]);
     }
 
-    public function save()
+    public function save($entity)
     {
-        if (is_null($this->id))
-            $this->insert();
+        if (is_null($entity->id))
+            $this->insert($entity);
         else
-            $this->update();
+            $this->update($entity);
     }
 
-    public static function getOne($id)
+    public function getOne($id)
     {
-        $className = static::class;
-        $tableName = static::getTableName();
+        $className = $this->getEntityClass();
+        $tableName = $this->getTableName();
         $sql = "SELECT * FROM `{$tableName}` WHERE id = :id";
         $product = Db::getInstance()->queryObject($sql, ['id' => $id], $className);
         return $product;
     }
 
-    public static function getAll()
+    public function getAll()
     {
         $tableName = static::getTableName();
         $sql = "SELECT * FROM `{$tableName}`";
         return Db::getInstance()->queryAll($sql);
     }
-
-    abstract public static function getTableName();
 }

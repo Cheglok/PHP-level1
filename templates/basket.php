@@ -12,9 +12,12 @@ use app\models\Basket;
         <h3><?= $item['name'] ?></h3>
         <button data-id="<?= $item['basket_id'] ?>" class="delete">Удалить</button>
     </div>
-<? endforeach; ?>
-<a href="/basket/order">Оформить заказ</a>
+<? endforeach;?>
+<? if ($form):?>
 <?=$form?>
+<? else:?>
+<a href="/basket/order">Оформить заказ</a>
+<? endif?>
 
 
 <script>

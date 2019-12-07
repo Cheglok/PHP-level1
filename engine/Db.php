@@ -50,7 +50,11 @@ class Db
     public function queryObject($sql, $params, $className) {
         $pdoStatement = $this->query($sql, $params);
         $pdoStatement->setFetchMode(\PDO::FETCH_CLASS | \PDO::FETCH_PROPS_LATE, $className);
-        return $pdoStatement->fetch();
+        $obj = $pdoStatement->fetch();
+        if (!$obj) {
+            throw new \Exception("Продукт не найден", 404);
+        }
+        return $obj;
     }
 
     public function execute($sql, $params) {
