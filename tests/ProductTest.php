@@ -5,6 +5,9 @@ use PHPUnit\Framework\TestCase;
 
 class ProductTest extends TestCase
 {
+    protected $fixture;
+    //Получились 4 одинаковых метода, в каждом из которых можно проверить только одно из свойств объекта
+    //При этом не получится использовать принадлежность, ведь тестируем функцию-конструктор объекта
     /**
      * @dataProvider providerProduct
      */
@@ -49,15 +52,25 @@ class ProductTest extends TestCase
         );
     }
 
+    protected function setUp()
+    {
+        $this->fixture = get_class(new Product());
+    }
+    protected function tearDown()
+    {
+        $this->fixture = NULL;
+    }
+
+
     public function testNamespaceGlobal() {
-        $this->assertEquals(0, strpos(Product::class, "app\\"));
+        $this->assertEquals(0, strpos($this->fixture, "app\\"));
     }
 
     public function testNamespaceFolder() {
-        $this->assertEquals(['models'], array_slice(explode("\\", get_class(new Product())), 1, 1));
+        $this->assertEquals(['models'], array_slice(explode("\\", $this->fixture), 1, 1));
     }
 
     public function testNamespaceLength() {
-        $this->assertEquals(3, substr_count(Product::class, "\\" ));
+        $this->assertEquals(3, substr_count($this->fixture, "\\" ));
     }
 }
