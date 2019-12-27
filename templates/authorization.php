@@ -1,5 +1,5 @@
 <? if ($auth):?>
-    Добро пожаловать, <?= $userName ?>, <a href="/user/logout">выход</a><br>
+    <p>Добро пожаловать, <?= $userName ?>  <a class="logout" href="/user/logout">выход</a></p>
 <? else:?>
     <form action="/user/login" method="post">
         <input type="text" name="login" placeholder="Логин">

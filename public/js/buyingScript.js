@@ -18,6 +18,10 @@ buttons.forEach((elem) => {
                 document.getElementById('count').innerText = answer.count;
                 console.log(answer.id)
             }
-        )()
+        )();
+        setTimeout(function () {
+            $('.fade').fadeIn(500);
+            $('.fade').fadeOut('fast')
+        }, 1500);
     })
 });

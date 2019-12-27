@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css"
 </head>
 <body>
-<?=$authorization?>
-<?=$menu?>
-<?=$content?>
+<div class="container">
+    <header class="main-header">
+        <?= $menu ?>
+        <?= $authorization ?>
+    </header>
+    <?= $content ?>
+</div>
 </body>
 </html>

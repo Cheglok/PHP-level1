@@ -4,21 +4,13 @@
 use app\models\entities\Basket;
 
 ?>
-<h2>Корзина</h2><h2 class="fade" style="display: none; position: absolute; top: 50px; left:200px;"></h2>
-<div class="catalog-wrapper">
+<h2>Заказ <?=$id?></h2><h2 class="fade" style="display: none; position: absolute; top: 50px; left:200px;"></h2>
 <? foreach ($basket as $item) : ?>
     <div class="basket-item" id="<?=$item['basket_id']?>">
         <img src="/img/<?= $item['image'] ?>" alt="puppy" width="200">
         <h3><?= $item['name'] ?></h3>
-        <button data-id="<?= $item['basket_id'] ?>" class="delete">Удалить</button>
     </div>
 <? endforeach;?>
-</div>
-<? if ($form):?>
-<?=$form?>
-<? else:?>
-<a href="/basket/order">Оформить заказ</a>
-<? endif?>
 
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
 <script>

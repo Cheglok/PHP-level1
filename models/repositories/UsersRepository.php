@@ -1,15 +1,13 @@
 <?php
 
-
 namespace app\models\repositories;
 
-
+use app\engine\App;
 use app\models\entities\Users;
 use app\models\Repository;
 
-class UserRepository extends Repository
+class UsersRepository extends Repository
 {
-
     public function getTableName()
     {
         return "users";
@@ -24,7 +22,7 @@ class UserRepository extends Repository
     {
         if (isset($_COOKIE["hash"])) {
             $hash = $_COOKIE["hash"];
-            $user = (new UserRepository())->getWhere('hash', $hash);
+            $user = App::call()->usersRepository->getWhere('hash', $hash);
             if (!empty($user)) {
                 $_SESSION['login'] = $user->login;
             }
@@ -34,7 +32,7 @@ class UserRepository extends Repository
 
     public function auth($login, $pass)
     {
-        $user = (new UserRepository())->getWhere('login', $login);
+        $user = App::call()->usersRepository->getWhere('login', $login);
         if (password_verify($pass, $user->password)) {
             $_SESSION['login'] = $login;
             $_SESSION['id'] = $user->id;
@@ -48,20 +46,14 @@ class UserRepository extends Repository
         return $_SESSION['login'];
     }
 
-    public function saveUser() {
+    public function saveUser()
+    {
 
-        $login = (new UserRepository())->getName();
-        $user = (new UserRepository())->getWhere('login', $login);
+        $login = App::call()->usersRepository->getName();
+        $user = App::call()->usersRepository->getWhere('login', $login);
         $user->hash = uniqid(rand(), true);
         $user->props['hash'] = true;
-        (new UserRepository())->save($user);
+        App::call()->usersRepository->save($user);
         setcookie("hash", $user->hash, time() + 3600, "/");
-        //Здесь мы используем заранее написанный общий метод update, но приходится создавать объект user и два раза делать запрос к БД
-
-        //Можно написать отдельный метод
-//        $hash = uniqid(rand(), true);
-//        $sql = "UPDATE `users` SET `hash` = :hash WHERE `users`.`id` = :id";
-//        Db::getInstance()->execute($sql, [':hash'=>$hash, ':id' => $_SESSION['id']]);
-//        setcookie("hash", $hash, time() + 3600, "/");
     }
 }

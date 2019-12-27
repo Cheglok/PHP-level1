@@ -1,14 +1,9 @@
 <?php
 
-
 namespace app\controllers;
 
+use app\engine\App;
 use app\interfaces\IRenderer;
-use app\models\entities\Basket;
-use app\models\entities\Users;
-use app\models\repositories\BasketRepository;
-use app\models\repositories\OrderRepository;
-use app\models\repositories\UserRepository;
 
 class Controller implements IRenderer
 {
@@ -27,8 +22,8 @@ class Controller implements IRenderer
         $this->renderer = $renderer;
     }
 
-
-    public function runAction($action = null) {
+    public function runAction($action = null)
+    {
         $this->action = $action ?: $this->defaultAction;
         $method = "action" . ucfirst($this->action);
         if (method_exists($this, $method)) {
@@ -38,31 +33,30 @@ class Controller implements IRenderer
         }
     }
 
-    public function render($template, $params = []) {
+    public function render($template, $params = [])
+    {
         if ($this->useLayout) {
             return $this->renderTemplate("layouts/{$this->layout}", [
                 'menu' => $this->renderTemplate('menu', [
-                    'count' => (new BasketRepository())->getCountWhere('session_id', session_id()),
-                    'auth' => (new UserRepository())->isAuth(),
-                    'ordersCount' => (new OrderRepository())->getCountWhere('session_id', session_id())
+                    'count' => App::call()->basketRepository->getCountWhere('session_id', session_id()),
+                    'name' => App::call()->usersRepository->getName(),
+                    'auth' => App::call()->usersRepository->isAuth()
                 ]),
                 'content' => $this->renderTemplate($template, $params),
                 'authorization' => $this->renderTemplate('authorization', [
-                    'auth' => (new UserRepository())->isAuth(),
-                    'userName' => (new UserRepository())->getName()
-                    ])
+                    'auth' => App::call()->usersRepository->isAuth(),
+                    'userName' => App::call()->usersRepository->getName()
+                ])
             ]);
         } else {
             return $this->renderTemplate($template, $params = []);
         }
     }
 
-    public function renderTemplate($template, $params = []) {
+    public function renderTemplate($template, $params = [])
+    {
         return $this->renderer->renderTemplate($template, $params);
     }
-
-
-
 
 
 }

@@ -2,9 +2,6 @@
 
 namespace app\models\entities;
 
-use app\engine\Db;
-use app\engine\Request;
-use http\Cookie;
 use app\models\Model;
 
 class Users extends Model
@@ -20,11 +17,10 @@ class Users extends Model
         'hash' => false
     ];
 
-    public function __construct($login = null, $password = null, $hash=null)
+    public function __construct($login = null, $password = null, $hash = null)
     {
         $this->login = $login;
         $this->password = $password;
         $this->hash = $hash;
     }
-
 }

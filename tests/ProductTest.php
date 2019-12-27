@@ -14,7 +14,7 @@ class ProductTest extends TestCase
     public function testProductName($name, $description, $price, $image)
     {
         $product = new Product($name, $description, $price, $image);
-       $this->assertEquals($name, $product->name);
+        $this->assertEquals($name, $product->name);
     }
 
     /**
@@ -44,11 +44,12 @@ class ProductTest extends TestCase
         $this->assertEquals($image, $product->image);
     }
 
-    public function providerProduct() {
-        return array (
-            array ('pizza', 'good taste', '12', 'AETHWY_RELYING_ON_YOU.jpeg'),
-            array ('123', '123', '12.123', '   '),
-            array ('@#@$$@', '325$@!$', '12', '/dsgsdg/dsf')
+    public function providerProduct()
+    {
+        return array(
+            array('pizza', 'good taste', '12', 'AETHWY_RELYING_ON_YOU.jpeg'),
+            array('123', '123', '12.123', '   '),
+            array('@#@$$@', '325$@!$', '12', '/dsgsdg/dsf')
         );
     }
 
@@ -56,21 +57,25 @@ class ProductTest extends TestCase
     {
         $this->fixture = get_class(new Product());
     }
+
     protected function tearDown()
     {
         $this->fixture = NULL;
     }
 
 
-    public function testNamespaceGlobal() {
+    public function testNamespaceGlobal()
+    {
         $this->assertEquals(0, strpos($this->fixture, "app\\"));
     }
 
-    public function testNamespaceFolder() {
+    public function testNamespaceFolder()
+    {
         $this->assertEquals(['models'], array_slice(explode("\\", $this->fixture), 1, 1));
     }
 
-    public function testNamespaceLength() {
-        $this->assertEquals(3, substr_count($this->fixture, "\\" ));
+    public function testNamespaceLength()
+    {
+        $this->assertEquals(3, substr_count($this->fixture, "\\"));
     }
 }

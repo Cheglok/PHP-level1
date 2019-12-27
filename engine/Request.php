@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\engine;
-
 
 class Request
 {
@@ -22,15 +20,16 @@ class Request
         $this->parseRequest();
     }
 
-    private function parseRequest() {
+    private function parseRequest()
+    {
         $this->method = $_SERVER['REQUEST_METHOD'];
         $url = explode('/', $this->requestString);
         $this->controllerName = $url[1];
         $this->actionName = $url[2];
         $this->params = $_REQUEST;
         $data = json_decode(file_get_contents('php://input'));
-        if(!is_null($data)){
-            foreach($data as $key=>$elem) {
+        if (!is_null($data)) {
+            foreach ($data as $key => $elem) {
                 $this->params[$key] = $elem;
             }
         }

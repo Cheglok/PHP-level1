@@ -1,10 +1,8 @@
 <?php
 
-
 namespace app\models\entities;
 
 use app\models\Model;
-
 
 class Feedback extends Model
 {
@@ -12,7 +10,7 @@ class Feedback extends Model
     protected $name;
     protected $feedback;
 
-    public function __construct($goods_id=null, $name=null, $feedback=null)
+    public function __construct($goods_id = null, $name = null, $feedback = null)
     {
         parent::__construct();
         $this->goods_id = $goods_id;
@@ -20,10 +18,8 @@ class Feedback extends Model
         $this->feedback = $feedback;
     }
 
-
     public static function getTableName()
     {
         return "feedback";
     }
-
 }

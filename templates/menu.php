@@ -1,10 +1,17 @@
 <?php
-/** @var int $count*/
+/** @var int $count */
 ?>
-<a href="/">Главная</a>
-<a href="/product/catalog/?page=2">Каталог</a>
-<a href="/basket/">Корзина <span id="count"><?=$count? $count : ''?></span></a>
-<? if ($auth):?>
-<a href="/order/">Заказы <span id="ordersCount"><?=$ordersCount? $ordersCount : ''?></span></a>
-<? endif;?>
-<br>
+<ul class="main-navigation">
+    <li><a href="/">Главная</a></li>
+    <li><a href="/product/catalog/?page=2">Каталог</a></li>
+    <li><a href="/basket/">Корзина <span id="count"><?= $count ? $count : '' ?></span></a></li>
+    <? if ($name == 'admin'): ?>
+        <li>
+            <a href="/order/">Заказы пользователей<!--<span id="ordersCount"><//?=$ordersCount? $ordersCount : ''?></span>--></a>
+        </li>
+    <? elseif ($auth):?>
+        <li>
+            <a href="/order/myOrder">Мои заказы<!--<span id="ordersCount"><//?=$ordersCount? $ordersCount : ''?></span>--></a>
+        </li>
+    <? endif; ?>
+</ul>

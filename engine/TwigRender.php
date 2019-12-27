@@ -1,13 +1,8 @@
 <?php
 
-
 namespace app\engine;
 
-
 use app\interfaces\IRenderer;
-
-
-
 
 class TwigRender implements IRenderer
 {
@@ -23,8 +18,6 @@ class TwigRender implements IRenderer
     public function renderTemplate($template, $params = [])
     {
         $templatePath = $template . ".twig";
-       return $this->twig->render($templatePath, $params);
+        return $this->twig->render($templatePath, $params);
     }
-
-
 }

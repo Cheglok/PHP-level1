@@ -2,12 +2,14 @@
 
 namespace app\models;
 
-
 abstract class Model
 {
+    protected $id;
+    protected $props;
+
     public function __set($prop, $value)
     {
-        if(array_key_exists($prop, $this->props)) {
+        if (array_key_exists($prop, $this->props)) {
             $this->$prop = $value;
             $this->props[$prop] = true;
         }
